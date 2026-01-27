@@ -1,0 +1,43 @@
+# GigProof
+
+GigProof is a Chrome extension and web app that helps gig workers generate a personal income summary PDF from earnings visible on Uber and DoorDash dashboards. The PDF is generated client-side and includes compliance language stating it is user-generated and not verified.
+
+## Core Problem Solved
+Gig workers need a clean, professional way to summarize earnings for landlords, lenders, and agencies without sharing bank logins or handing over screenshots.
+
+## Core Features
+- **Chrome Extension Extraction**: Reads only on-screen earnings totals from supported gig dashboards.
+- **Client-Side PDF Generation**: Creates the PDF locally in the browser.
+- **No Bank Connections**: No Plaid, no Open Banking, no financial account access.
+- **Privacy-First**: No credential storage and no server-side earnings storage.
+
+## Use Cases
+- **Apartment Applications**: Provide a clear income summary.
+- **Loan Applications**: Share a professional earnings report.
+- **General Proof of Income**: Use for any third-party verification request.
+
+## Supported Platforms
+- Uber driver dashboard
+- DoorDash driver dashboard
+
+## Target Keywords
+Gig worker income proof, Uber driver paystub, DoorDash income verification, gig earnings summary, gig income PDF, income summary for landlords.
+
+## URLs
+- Main Site: https://gigproof.online/
+- Login: https://gigproof.online/login
+- Dashboard: https://gigproof.online/dashboard
+- Download: https://gigproof.online/download
+- Pricing: https://gigproof.online/pricing
+- FAQ: https://gigproof.online/faq
+- Contact: https://gigproof.online/contact
+- Privacy Policy: https://gigproof.online/privacy
+- Terms of Service: https://gigproof.online/terms
+- Security: https://gigproof.online/security
+- Cookies: https://gigproof.online/cookies
+
+## Technology Stack
+- Frontend: React, Vite
+- Extension: Chrome Manifest V3
+- PDF Engine: jsPDF
+- Hosting: Netlify

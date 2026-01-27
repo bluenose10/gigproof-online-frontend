@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>GigProof</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Load Platform Configuration -->
+  <script src="platforms.js"></script>
+  <!-- Load Environment Configuration -->
+  <script src="config.js"></script>
+  <!-- Load Popup Logic -->
+  <script src="popup.js" defer></script>
+</head>
+
+<body>
+  <!-- Animated Background -->
+  <div class="bg-gradient"></div>
+
+  <div class="container">
+    <div class="glass-card">
+      <header class="header">
+        <div class="logo">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L3 7V12C3 17.52 12 22 12 22C12 22 21 17.52 21 12V7L12 2Z" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M12 8V16M8 12H16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <h1>GigProof</h1>
+        <p class="subtitle">Personal Income Summary</p>
+      </header>
+
+      <!-- Status Section -->
+      <div class="status-section">
+        <div id="statusIndicator" class="status-indicator">
+          <div class="pulse"></div>
+          <span id="statusText">Detecting platform...</span>
+        </div>
+      </div>
+
+      <!-- Status Badge -->
+      <div id="platformInfo" class="platform-info" style="display: none; text-align: center;">
+        <span class="platform-badge">
+          Connected: <span id="platformName">None</span>
+        </span>
+      </div>
+
+      <div id="unsupportedMsg"
+        style="display: none; padding: 10px; text-align: center; color: rgba(255,255,255,0.7); font-size: 13px;">
+        <p>Please navigate to a supported driver dashboard.</p>
+      </div>
+
+      <div id="authRequiredMsg"
+        style="display: none; padding: 10px; text-align: center; color: rgba(255,255,255,0.7); font-size: 13px;">
+        <h3 style="color: #fff; font-size: 14px; margin-bottom: 8px;">GigProof login required</h3>
+        <p style="margin-bottom: 10px;">To generate and download your income summary, you must be logged in.</p>
+        <p style="margin-bottom: 14px;">This is used only to manage access and downloads. Your gig earnings and PDFs are not stored.</p>
+        <button id="loginBtn" class="btn btn-outline" style="width: 100%;">Log in to continue extraction</button>
+      </div>
+
+      <!-- Actions -->
+      <div class="actions">
+        <button id="extractBtn" class="btn btn-primary" disabled>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Extract Earnings</span>
+        </button>
+
+        <!-- Data Preview -->
+        <div id="dataPreview" class="data-preview" style="display: none;">
+          <h3>Income Summary</h3>
+          <div class="data-grid">
+            <div class="data-item">
+              <label>Platform</label>
+              <span id="previewPlatform">-</span>
+            </div>
+            <div class="data-item">
+              <label>Period</label>
+              <span id="previewDateRange">-</span>
+            </div>
+            <div class="data-item">
+              <label>Total Earnings</label>
+              <span id="previewEarnings">$0.00</span>
+            </div>
+            <div class="data-item">
+              <label>Currency</label>
+              <span id="previewCurrency">USD</span>
+            </div>
+          </div>
+        </div>
+
+        <button id="generateBtn" class="btn btn-secondary" disabled>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>View PDF Options</span>
+        </button>
+        <button id="clearBtn" class="btn btn-outline" style="border: 1px solid rgba(255,255,255,0.25);">
+          Clear Saved Report
+        </button>
+        <p style="margin-top: 10px; text-align: center; color: rgba(255,255,255,0.7); font-size: 12px;">
+          Based on the current date range selected in your dashboard.
+        </p>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <p>Private & Secure Client-Side Extraction</p>
+      </div>
+
+      <!-- Loading Overlay -->
+      <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="spinner"></div>
+        <p>Processing secure extraction...</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

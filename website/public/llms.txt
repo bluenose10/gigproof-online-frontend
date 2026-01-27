@@ -1,0 +1,26 @@
+# GigProof
+
+## Overview
+GigProof is a Chrome extension and web app that helps gig workers generate a personal income summary PDF from earnings visible on Uber and DoorDash dashboards. The PDF is generated client-side and includes compliance language stating it is user-generated and not verified.
+
+## Key Pages
+- https://gigproof.online/
+- https://gigproof.online/login
+- https://gigproof.online/dashboard
+- https://gigproof.online/download
+- https://gigproof.online/pricing
+- https://gigproof.online/faq
+- https://gigproof.online/contact
+- https://gigproof.online/privacy
+- https://gigproof.online/terms
+- https://gigproof.online/security
+- https://gigproof.online/cookies
+
+## Product Summary
+- Chrome extension extracts earnings data from user-visible dashboard pages.
+- No bank access, no credential storage, no server-side PDF generation in MVP.
+- Reports are user-generated summaries intended for informational use.
+- Supported platforms: Uber, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, and Just Eat (driver/courier dashboards).
+
+## Support
+- Contact: https://gigproof.online/contact

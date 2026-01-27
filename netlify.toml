@@ -1,0 +1,14 @@
+[build]
+  base = "website"
+  publish = "dist"
+  command = "npm run build"
+
+ [context.production.environment]
+  VITE_SUPABASE_URL = "https://eiuwenohohvmtbjcclpa.supabase.co"
+  VITE_SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVpdXdlbm9ob2h2bXRiamNjbHBhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc4MzY4NzksImV4cCI6MjA4MzQxMjg3OX0.ILANxor5YJxCtoa2NDh-p2eXlkAL2_GEVFNGv7inHKs"
+  VITE_STRIPE_CHECKOUT_URL = "https://eiuwenohohvmtbjcclpa.supabase.co/functions/v1/stripe-checkout"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
