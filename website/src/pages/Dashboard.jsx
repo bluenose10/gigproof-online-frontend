@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { FileText, AlertCircle, Download, ArrowRight } from 'lucide-react';
+import { FileText, AlertCircle, Download, ArrowRight, CreditCard } from 'lucide-react';
 import { useAuth } from '../AuthContext';
 import { CONFIG } from '../config';
 
@@ -69,11 +69,17 @@ export default function Dashboard() {
                         Your income summary is generated on-demand through the GigProof Chrome extension.
                     </p>
                     {CONFIG.PAYMENTS_ENABLED && (
-                        <p style={{ marginTop: '0.5rem', color: 'var(--gray-600)', fontSize: '0.95rem' }}>
-                            {creditsLoading
-                                ? 'Checking credits...'
-                                : `${credits} PDF credit${credits === 1 ? '' : 's'} available`}
-                        </p>
+                        <div style={{ marginTop: '0.75rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+                            <p style={{ margin: 0, color: 'var(--gray-600)', fontSize: '0.95rem' }}>
+                                {creditsLoading
+                                    ? 'Checking credits...'
+                                    : `${credits} PDF credit${credits === 1 ? '' : 's'} available`}
+                            </p>
+                            <Link to="/pricing" className="btn btn-outline" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', fontSize: '0.875rem' }}>
+                                <CreditCard size={16} />
+                                Buy Credits
+                            </Link>
+                        </div>
                     )}
                     <div
                         className="card"
