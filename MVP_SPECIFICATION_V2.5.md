@@ -1,6 +1,6 @@
 # GigProof MVP Specification v2.5 (Production State - CORRECTED)
 
-**Status**: ✅ LIVE IN PRODUCTION | **Date**: Jan 27, 2026 | **Version**: 1.0.4
+**Status**: ✅ LIVE IN PRODUCTION | **Date**: Jan 28, 2026 | **Version**: 1.0.5
 
 ---
 
@@ -405,7 +405,14 @@ Avoids classification as regulated consumer reporting or financial verification 
 
 ## 14. Changelog
 
-### v1.0.4 (Jan 27, 2026) - CURRENT
+### v1.0.5 (Jan 28, 2026) - CURRENT
+- ✅ Fixed Stripe webhook RLS issue - credits now update correctly after payment
+- ✅ Added `add_pdf_credits` SQL function with SECURITY DEFINER to bypass RLS
+- ✅ Updated stripe-webhook Edge Function to use RPC call
+- ✅ Fixed Stripe webhook event type (was `async_payment_succeeded`, now `checkout.session.completed`)
+- ✅ Cleaned up old/broken webhook endpoints in Stripe
+
+### v1.0.4 (Jan 27, 2026)
 - ✅ Corrected documentation: 10 platforms supported (not 2)
 - ✅ Repository restored after accidental deletion
 - ✅ Confirmed all systems operational

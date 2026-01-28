@@ -1,6 +1,6 @@
 # Production Readiness Checklist
 
-**Last Updated:** January 27, 2026  
+**Last Updated:** January 28, 2026
 **Status:** ✅ FULLY LIVE - Website deployed + Chrome extension approved on Web Store + Payments working
 
 ---
@@ -42,7 +42,7 @@
 **Status:** ✅ COMPLETE & APPROVED ON WEB STORE
 
 - ✅ Manifest v3 configured with popup and content scripts
-- ✅ Supported platforms: Uber and DoorDash extraction
+- ✅ Supported platforms: 10 active (Uber, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, Just Eat)
 - ✅ Popup UX for extract, preview, and generate flow
 - ✅ Local storage of extracted report data
 - ✅ Auth sync bridge between website and extension
@@ -192,7 +192,6 @@ users table includes:
 - ✅ Security vulnerability fixed (moved PDF generation server-side for sensitive operations)
 
 ### Current Technical Limitations:
-- Only 2 platforms supported (Uber, DoorDash)
 - English language only
 - Chrome extension only (no mobile app)
 - Manual extraction required (not automatic)
@@ -231,6 +230,13 @@ This is GigProof - a Chrome extension that helps gig workers (Uber/DoorDash driv
 ---
 
 ## 🔄 CHANGELOG
+
+### January 28, 2026
+- ✅ Fixed Stripe webhook RLS issue - credits now update correctly after payment
+- ✅ Added `add_pdf_credits` SQL function (SECURITY DEFINER) to bypass RLS
+- ✅ Updated stripe-webhook Edge Function to use RPC call instead of direct update
+- ✅ Fixed Stripe webhook listening to wrong event type
+- ✅ Cleaned up old webhook endpoints in Stripe dashboard
 
 ### January 27, 2026
 - ✅ Cleaned up repository structure
