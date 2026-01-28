@@ -1,4 +1,4 @@
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2?target=deno&no-check";
+import { createClient } from "jsr:@supabase/supabase-js@2";
 
 // Verify Stripe webhook signature manually (no Stripe SDK to avoid Node.js deps)
 async function verifyStripeSignature(
@@ -70,24 +70,53 @@ Deno.serve(async (req) => {
         // Determine how many credits to add
         const creditsToAdd = planType === "bundle" ? 10 : 1;
 
+        console.log(`Processing payment for user ${userId}, plan: ${planType}, credits to add: ${creditsToAdd}`);
+
         // Get current credits
-        const { data: profile } = await supabase
+        const { data: profile, error: selectError } = await supabase
           .from("profiles")
           .select("pdf_credits")
           .eq("user_id", userId)
           .single();
 
+        if (selectError) {
+          console.error(`Failed to find profile for user ${userId}:`, selectError);
+          break;
+        }
+
         const currentCredits = profile?.pdf_credits || 0;
+        console.log(`Current credits: ${currentCredits}`);
 
-        // Add credits
-        await supabase
-          .from("profiles")
-          .update({
-            pdf_credits: currentCredits + creditsToAdd,
-          })
-          .eq("user_id", userId);
+        // Add credits using RPC to bypass RLS
+        const { error: rpcError } = await supabase.rpc("add_pdf_credits", {
+          p_user_id: userId,
+          p_credits: creditsToAdd,
+        });
 
-        console.log(`Added ${creditsToAdd} PDF credits to user ${userId}. Total: ${currentCredits + creditsToAdd}`);
+        if (rpcError) {
+          console.error(`RPC add_pdf_credits failed for user ${userId}:`, rpcError);
+
+          // Fallback: try direct update
+          const { data: updateData, error: updateError } = await supabase
+            .from("profiles")
+            .update({
+              pdf_credits: currentCredits + creditsToAdd,
+            })
+            .eq("user_id", userId)
+            .select();
+
+          if (updateError) {
+            console.error(`Direct update also failed for user ${userId}:`, updateError);
+          } else if (!updateData || updateData.length === 0) {
+            console.error(`Direct update returned no rows for user ${userId}`);
+          } else {
+            console.log(`Fallback update succeeded. New total: ${updateData[0].pdf_credits}`);
+          }
+        } else {
+          console.log(`Added ${creditsToAdd} PDF credits to user ${userId} via RPC`);
+        }
+      } else {
+        console.error("No supabase_user_id in session metadata");
       }
       break;
     }
