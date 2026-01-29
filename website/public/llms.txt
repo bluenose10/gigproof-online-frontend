@@ -11,6 +11,8 @@ GigProof is a Chrome extension and web app that helps gig workers generate a per
 - https://gigproof.online/pricing
 - https://gigproof.online/faq
 - https://gigproof.online/contact
+- https://gigproof.online/for-lenders
+- https://gigproof.online/merge
 - https://gigproof.online/privacy
 - https://gigproof.online/terms
 - https://gigproof.online/security
