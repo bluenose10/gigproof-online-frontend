@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GigProof Earnings Test Page</title>
+    <style>
+        :root {
+            --primary: #0f766e;
+            --primary-dark: #0f5d55;
+            --accent: #10b981;
+            --bg: #f8fafc;
+            --text: #0f172a;
+            --muted: #64748b;
+            --card: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        header {
+            background: linear-gradient(135deg, rgba(15, 118, 110, 0.08), rgba(16, 185, 129, 0.08));
+            padding: 28px 20px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: var(--muted);
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px 20px 40px;
+        }
+
+        .helper {
+            background: #ecfeff;
+            border: 1px solid #bae6fd;
+            border-radius: 16px;
+            padding: 12px 16px;
+            color: #0f172a;
+            margin-bottom: 18px;
+        }
+
+        .helper a {
+            color: var(--primary-dark);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .popup-preview {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 320px;
+            border-radius: 24px;
+            padding: 18px;
+            background: rgba(15, 118, 110, 0.18);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 18px 40px rgba(15, 23, 42, 0.28);
+            color: #fff;
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+            overflow: hidden;
+        }
+
+        .popup-preview .earnings-container {
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: #fff;
+        }
+
+        .popup-preview .label {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .popup-preview .amount {
+            color: #fff;
+        }
+
+        .popup-preview::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(15, 118, 110, 0.8), rgba(16, 185, 129, 0.7));
+            z-index: -2;
+        }
+
+        .popup-preview::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at top, rgba(255, 255, 255, 0.18), transparent 60%);
+            z-index: -1;
+        }
+
+        .popup-preview .badge {
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
+
+        .popup-actions {
+            display: grid;
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .preview-btn {
+            padding: 11px 14px;
+            border-radius: 12px;
+            border: none;
+            font-weight: 600;
+            cursor: default;
+        }
+
+        .preview-primary {
+            background: linear-gradient(135deg, #0f766e, #10b981);
+            color: #fff;
+        }
+
+        .preview-secondary {
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+
+        .preview-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.75);
+            margin-top: 6px;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 18px;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+            border: 1px solid var(--border);
+        }
+
+        .platform-title {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .badge {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--primary-dark);
+        }
+
+        .earnings-container {
+            background: #f8fafc;
+            padding: 16px;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+        }
+
+        .label {
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .amount {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin: 4px 0;
+        }
+
+        .date {
+            color: var(--muted);
+            margin-top: 6px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>GigProof Earnings Test Page</h1>
+        <p>This page mirrors the DOM selectors used by the extension. Use it for screenshots or extraction testing.</p>
+    </header>
+
+    <div class="container">
+        <div class="helper">
+            <strong>Tip:</strong> Use URL parameters to test each platform:
+            <a href="?platform=uber">Uber</a> •
+            <a href="?platform=doordash">DoorDash</a> •
+            <a href="?platform=lyft">Lyft</a> •
+            <a href="?platform=grubhub">Grubhub</a> •
+            <a href="?platform=instacart">Instacart</a> •
+            <a href="?platform=amazonflex">Amazon Flex</a> •
+            <a href="?platform=shipt">Shipt</a> •
+            <a href="?platform=gopuff">Gopuff</a> •
+            <a href="?platform=deliveroo">Deliveroo</a> •
+            <a href="?platform=justeat">Just Eat</a>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Uber</span>
+                    Mock Driver Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="date-range" class="date-range">Oct 30 - Nov 6</div>
+                    <div class="label">Weekly Earnings</div>
+                    <div data-testid="earnings-amount" class="earnings-total amount">$1,350.50</div>
+                    <div class="date">Payout scheduled</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">DoorDash</span>
+                    Mock Driver Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="earnings-period" class="date-range">Week of Oct 30</div>
+                    <div class="label">Total Earnings</div>
+                    <div data-testid="earnings-total" class="earnings-amount amount">$845.20</div>
+                    <div class="date">Deposited</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Lyft</span>
+                    Mock Driver Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="date-range" class="date-range">Nov 1 - Nov 7</div>
+                    <div class="label">Weekly Earnings</div>
+                    <div data-testid="earnings-amount" class="earnings-total amount">$1,125.75</div>
+                    <div class="date">Deposited</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Grubhub</span>
+                    Mock Driver Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="earnings-period" class="date-range">Week of Nov 1</div>
+                    <div class="label">Total Earnings</div>
+                    <div data-testid="earnings-total" class="earnings-amount amount">$672.30</div>
+                    <div class="date">Paid</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Instacart</span>
+                    Mock Shopper Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="date-range" class="date-range">Oct 28 - Nov 3</div>
+                    <div class="label">Weekly Earnings</div>
+                    <div data-testid="earnings-amount" class="earnings-total amount">$892.60</div>
+                    <div class="date">Direct deposit scheduled</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Amazon Flex</span>
+                    Mock Driver Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="earnings-period" class="date-range">Week of Oct 30</div>
+                    <div class="label">Total Earnings</div>
+                    <div data-testid="earnings-total" class="earnings-amount amount">$1,450.00</div>
+                    <div class="date">Transferred</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Shipt</span>
+                    Mock Shopper Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="date-range" class="date-range">Nov 1 - Nov 7</div>
+                    <div class="label">Weekly Earnings</div>
+                    <div data-testid="earnings-amount" class="earnings-total amount">$735.40</div>
+                    <div class="date">Payout pending</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Gopuff</span>
+                    Mock Driver Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="earnings-period" class="date-range">Week of Oct 30</div>
+                    <div class="label">Total Earnings</div>
+                    <div data-testid="earnings-total" class="earnings-amount amount">$520.90</div>
+                    <div class="date">Paid out</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Deliveroo</span>
+                    Mock Rider Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="date-range" class="date-range">Oct 30 - Nov 5</div>
+                    <div class="label">Weekly Earnings</div>
+                    <div data-testid="earnings-amount" class="earnings-total amount">£625.80</div>
+                    <div class="date">Payment processing</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="platform-title">
+                    <span class="badge">Just Eat</span>
+                    Mock Courier Dashboard
+                </div>
+                <div class="earnings-container">
+                    <div data-testid="earnings-period" class="date-range">Week of Nov 1</div>
+                    <div class="label">Total Earnings</div>
+                    <div data-testid="earnings-total" class="earnings-amount amount">£580.25</div>
+                    <div class="date">Deposited</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

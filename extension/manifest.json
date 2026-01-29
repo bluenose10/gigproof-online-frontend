@@ -49,6 +49,8 @@
         "https://deliveroo.fr/*",
         "https://riders.deliveroo.com/*",
         "https://couriers.just-eat.com/*",
+        "http://localhost/*",
+        "https://gigproof.online/*",
         "file:///*"
       ],
       "js": [
