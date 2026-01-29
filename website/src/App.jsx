@@ -16,6 +16,7 @@ import CookiePolicy from './pages/CookiePolicy';
 import Faq from './pages/Faq';
 import Pricing from './pages/Pricing';
 import MergePDFs from './pages/MergePDFs';
+import ForLenders from './pages/ForLenders';
 import { useAuth } from './AuthContext';
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/pricing" element={<Pricing />} />
                 <Route path="/merge" element={<MergePDFs />} />
+                <Route path="/for-lenders" element={<ForLenders />} />
             </Routes>
 
             <footer style={{
@@ -121,6 +123,11 @@ function App() {
                                 <li style={{ marginBottom: '0.75rem' }}>
                                     <Link to="/faq" style={{ color: 'white', textDecoration: 'none', fontSize: '0.875rem', transition: 'color 0.2s' }}>
                                         FAQ
+                                    </Link>
+                                </li>
+                                <li style={{ marginBottom: '0.75rem' }}>
+                                    <Link to="/for-lenders" style={{ color: 'white', textDecoration: 'none', fontSize: '0.875rem', transition: 'color 0.2s' }}>
+                                        For Lenders
                                     </Link>
                                 </li>
                             </ul>
