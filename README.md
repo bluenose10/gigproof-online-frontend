@@ -7,15 +7,10 @@ A Chrome extension that converts gig worker earnings into professional PDF docum
 ## 🎯 Features
 
 - **Modern Glassmorphism UI** - Premium design with frosted glass effects and smooth animations
-- **Platform Support** - Uber and DoorDash driver dashboards
+- **10 Platform Support** - Uber, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, Just Eat
 - **PDF Generation** - Client-side income summary documents
 - **Stripe Integration** - Secure payment processing
 - **Legal Compliance** - Mandatory disclaimers on all documents
-
-## ⚠️ Legacy Plaid References
-
-This repo contains legacy Supabase migrations/functions and root `src/` app code that reference Plaid.
-They are inactive for the live Chrome extension + `website/` flow and can be treated as historical artifacts.
 
 ## MVP Constraints
 
@@ -98,7 +93,7 @@ The API will be available at `https://gigproof.online`
 
 ## 🎨 Usage
 
-1. **Navigate to Platform**: Go to your Uber or DoorDash driver dashboard
+1. **Navigate to Platform**: Go to any supported gig platform driver dashboard (Uber, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, or Just Eat)
 
 2. **Open Extension**: Click the GigProof icon in your toolbar
 
@@ -116,11 +111,12 @@ The extension includes mock data fallback for testing without accessing real dri
 
 ### Updating Platform Selectors
 
-To update the DOM selectors for Uber or DoorDash:
+To update the DOM selectors for any platform:
 
 1. Open `extension/content.js`
-2. Modify the selector arrays in `extractUberData()` or `extractDoorDashData()`
-3. Test on the actual platform dashboard
+2. Modify the selector arrays for the relevant platform extraction function
+3. Platform configuration is in `extension/platforms.js`
+4. Test on the actual platform dashboard
 
 ### API Endpoints
 

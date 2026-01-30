@@ -130,6 +130,11 @@ function App() {
                                         For Lenders
                                     </Link>
                                 </li>
+                                <li style={{ marginBottom: '0.75rem' }}>
+                                    <a href="/blog/" style={{ color: 'white', textDecoration: 'none', fontSize: '0.875rem', transition: 'color 0.2s' }}>
+                                        Blog
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 
