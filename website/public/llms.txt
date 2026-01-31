@@ -25,6 +25,12 @@ GigProof is a Chrome extension and web app that helps gig workers generate profe
 - https://gigproof.online/blog/what-documents-landlords-accept-self-employed.html
 - https://gigproof.online/blog/lyft-driver-proof-income.html
 - https://gigproof.online/blog/instacart-shopper-proof-income.html
+- https://gigproof.online/blog/doordash-income-statement-guide.html
+- https://gigproof.online/blog/uber-driver-tax-documents-1099.html
+- https://gigproof.online/blog/gig-worker-car-loan-approval.html
+- https://gigproof.online/blog/how-to-rent-apartment-without-pay-stubs.html
+- https://gigproof.online/blog/multi-app-income-proof-guide.html
+- https://gigproof.online/blog/miami-uber-driver-apartments.html
 
 ## Product Summary
 - Chrome extension extracts earnings data from user-visible dashboard pages.

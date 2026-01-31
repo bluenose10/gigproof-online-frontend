@@ -1,7 +1,7 @@
 # Production Readiness Checklist
 
-**Last Updated:** January 28, 2026
-**Status:** ✅ FULLY LIVE - Website deployed + Chrome extension approved on Web Store + Payments working
+**Last Updated:** January 31, 2026
+**Status:** ✅ FULLY LIVE - Website deployed + Chrome extension approved on Web Store + Payments working + Blog SEO active
 
 ---
 
@@ -13,6 +13,7 @@
 ```
 /website/          ← Main GigProof website (React + Vite) - NETLIFY DEPLOYS THIS
   ├── public/      ← Assets folder (images, fonts, etc.)
+  │   └── blog/    ← Static blog articles (11 SEO-optimized HTML pages)
   ├── src/         ← React components and pages
   ├── index.html   ← Entry point
   └── package.json ← Dependencies
@@ -145,24 +146,77 @@ users table includes:
 | **Credits System** | ✅ LIVE | 3 free credits on signup |
 | **Backend API** | ✅ LIVE | Supabase Edge Functions |
 | **PDF Generation** | ✅ LIVE | Client-side via jsPDF |
+| **Blog/SEO** | ✅ LIVE | 11 articles published |
 
 ---
 
-## 🚀 MARKETING STATUS (Jan 27, 2026)
+## 📝 BLOG SECTION (Jan 31, 2026)
+
+**Status:** ✅ LIVE - 11 SEO-optimized articles published
+
+### Blog Infrastructure:
+- Static HTML pages in `/website/public/blog/`
+- Vite custom middleware for serving `.html` files
+- Consistent header/footer matching main site
+- Full SEO implementation on all articles
+
+### SEO Features Per Article:
+- Google Analytics tracking (G-NMB8Q0LR5L)
+- Meta description + canonical URLs
+- Open Graph tags for social sharing
+- Twitter Card tags
+- Schema.org Article markup
+- Schema.org FAQ markup (for relevant articles)
+- Breadcrumb navigation
+
+### Published Articles (11 total):
+
+**General Guides:**
+1. `uber-doordash-proof-income-apartments.html` - Apartment rental guide
+2. `gig-worker-income-verification-guide.html` - Comprehensive verification guide
+3. `what-documents-landlords-accept-self-employed.html` - Landlord document guide
+4. `how-to-rent-apartment-without-pay-stubs.html` - No pay stubs guide
+5. `multi-app-income-proof-guide.html` - Multi-platform income guide
+
+**Platform-Specific:**
+6. `lyft-driver-proof-income.html` - Lyft driver guide
+7. `instacart-shopper-proof-income.html` - Instacart shopper guide
+8. `doordash-income-statement-guide.html` - DoorDash earnings guide
+9. `uber-driver-tax-documents-1099.html` - Uber tax documents guide
+10. `gig-worker-car-loan-approval.html` - Car loan approval guide
+
+**Geographic Targeting (Test):**
+11. `miami-uber-driver-apartments.html` - Miami local guide (with geo-coordinates)
+
+### Geographic Targeting Strategy:
+- Miami article is test case for city-specific SEO
+- Includes geo-coordinates in Schema.org markup
+- If successful, replicate for: Los Angeles, New York, Chicago, Houston, Atlanta, Phoenix
+- Target: Local search queries like "uber driver apartments [city]"
+
+---
+
+## 🚀 MARKETING STATUS (Jan 31, 2026)
 
 ### Active Strategies:
-1. **Comment Hijacking** - Active on UberPeople.net forum
+1. **Blog Content Marketing** (PRIMARY FOCUS)
+   - 11 SEO-optimized articles published
+   - Targeting long-tail keywords
+   - Geographic targeting test (Miami)
+   - Schema.org markup for rich snippets
+
+2. **Comment Hijacking** - Active on UberPeople.net forum
    - Username: Mark_GigProof
    - Strategy: Helpful comments mentioning GigProof naturally
    - Target: 3-5 comments per week
-   
-2. **SEO Websites** - 3 sites launched (low traffic currently)
+
+3. **SEO Websites** - 3 sites launched (low traffic currently)
    - taxguidehq.com (tax guidance for gig workers)
    - taxes.taxguidehq.com (tax calculators)
-   - gigproof.online (product site)
+   - gigproof.online (product site + blog)
    - **Issue:** Traffic dropped after 2 months (Google Sandbox effect)
 
-3. **Forum Presence**
+4. **Forum Presence**
    - UberPeople.net: Registered as Mark_GigProof
    - Reddit: Account ComprehensiveAd3891 (5 years old, 2/8 karma)
    - Strategy: Build karma first, then strategically mention GigProof
@@ -174,8 +228,10 @@ users table includes:
 - ❌ Competing with established players (TurboTax, Uber guides, etc.)
 
 ### Next Marketing Steps:
+- Monitor Miami geographic article performance
+- If Miami converts, create city guides for: LA, NYC, Chicago, Houston, Atlanta, Phoenix
 - Build 10+ quality backlinks from relevant sites
-- Focus on long-tail keywords (e.g., "how to prove uber income for apartment")
+- Continue targeting long-tail keywords via blog content
 - Create "Reddit-worthy" content that gets shared organically
 - Consider paid advertising ($300/month budget for testing)
 - Continue comment hijacking strategy on forums
@@ -215,7 +271,8 @@ This is GigProof - a Chrome extension that helps gig workers (Uber/DoorDash driv
 - Website is in `/website/` folder, deployed to gigproof.online via Netlify
 - Extension is approved on Chrome Web Store
 - Payments working via Stripe with credits system
-- Marketing focus: Comment hijacking on forums + SEO (currently low traffic)
+- **Blog:** 11 SEO articles in `/website/public/blog/` (static HTML)
+- Marketing focus: Blog SEO content + Comment hijacking on forums
 
 **Folder Structure:**
 - `/website/` contains the main site (including `/website/public/` for assets)
@@ -225,11 +282,24 @@ This is GigProof - a Chrome extension that helps gig workers (Uber/DoorDash driv
 
 **Developer:** Mark Moran (solo founder, 14 years web dev experience, based in Liverpool/Southport, UK)
 
-**Current Priority:** Getting traffic/customers through comment hijacking while building SEO authority
+**Current Priority:** Building SEO authority through blog content + geographic targeting test (Miami)
 
 ---
 
 ## 🔄 CHANGELOG
+
+### January 31, 2026
+- ✅ Added 5 new blog articles (doordash-income-statement, uber-tax-documents, car-loan-approval, rent-without-pay-stubs, multi-app-income)
+- ✅ Added Miami geographic targeting test article with geo-coordinates schema
+- ✅ Updated sitemap.xml with all 11 blog URLs
+- ✅ Updated llms.txt with blog section
+- ✅ Full SEO implementation on all articles (GA, Open Graph, Twitter Cards, Schema.org)
+- ✅ Blog infrastructure complete with Vite middleware for static HTML
+
+### January 30, 2026
+- ✅ Added initial 5 blog articles for SEO
+- ✅ Created blog index page at /blog/
+- ✅ Implemented consistent header/footer for blog
 
 ### January 28, 2026
 - ✅ Fixed Stripe webhook RLS issue - credits now update correctly after payment
@@ -254,4 +324,4 @@ This is GigProof - a Chrome extension that helps gig workers (Uber/DoorDash driv
 
 ---
 
-*This document reflects the "As-Is" production state of GigProof v1.0 as of January 27, 2026.*
+*This document reflects the "As-Is" production state of GigProof v1.0.6 as of January 31, 2026.*

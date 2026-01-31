@@ -1,6 +1,6 @@
 # GigProof MVP Specification v2.5 (Production State - CORRECTED)
 
-**Status**: ✅ LIVE IN PRODUCTION | **Date**: Jan 28, 2026 | **Version**: 1.0.5
+**Status**: ✅ LIVE IN PRODUCTION | **Date**: Jan 31, 2026 | **Version**: 1.0.6
 
 ---
 
@@ -82,7 +82,9 @@ By extracting data from user-visible web dashboards within the client's browser,
 - Dashboard (authenticated users)
 - Download page (PDF generation)
 - Pricing page (credit purchase)
+- For Lenders page (B2B landing)
 - Legal pages (Terms, Privacy)
+- **Blog section** (`/blog/`) - 11 SEO-optimized articles
 
 **Deployment:**
 - Platform: Netlify
@@ -215,14 +217,37 @@ Avoids classification as regulated consumer reporting or financial verification 
 
 ### Active Channels:
 
-**1. Comment Hijacking Strategy (Primary Focus)**
+**1. Blog / Content Marketing (Primary SEO Focus)**
+- **Location:** `/website/public/blog/`
+- **Status:** ✅ 11 SEO-optimized articles LIVE
+- **Full SEO Implementation:** Google Analytics, Open Graph, Twitter Cards, Schema.org Article + FAQ markup
+
+**Blog Articles (11 Total):**
+1. How Uber Drivers and DoorDash Dashers Can Show Proof of Income for Apartments
+2. Gig Worker Income Verification: Complete Guide for Rentals and Loans
+3. What Documents Do Landlords Actually Accept from Self-Employed Workers?
+4. Lyft Driver Proof of Income: Complete Guide
+5. Instacart Shopper Proof of Income: How to Show Earnings
+6. DoorDash Income Statement: How to Get and Use It
+7. Uber Driver Tax Documents: Complete 1099 Guide
+8. Gig Worker Car Loan: How to Get Approved Without Pay Stubs
+9. How to Rent an Apartment Without Pay Stubs
+10. How to Combine Income from Multiple Gig Apps
+11. **Miami Uber Drivers: How to Show Proof of Income** (Geographic targeting test)
+
+**Geographic Targeting Strategy:**
+- Miami article is a test case for city-specific SEO
+- If successful, can replicate for: Los Angeles, New York, Chicago, Houston, Atlanta, Phoenix
+- Each city article includes local rental market data, neighborhood guides, landlord expectations
+
+**2. Comment Hijacking Strategy (Secondary Focus)**
 - **UberPeople.net forum:**
   - Username: Mark_GigProof
   - Status: Registered, profile complete
   - Strategy: Post helpful comments on income verification threads
   - Target: 3-5 strategic comments per week
   - Approach: Provide value first, mention GigProof naturally
-  
+
 - **Reddit:**
   - Username: ComprehensiveAd3891
   - Age: 5 years old (helps avoid spam filters)
@@ -230,10 +255,10 @@ Avoids classification as regulated consumer reporting or financial verification 
   - Strategy: Warm up with non-promotional comments first
   - Target subreddits: r/uberdrivers, r/doordash, r/gig_economy, r/lyft, r/instacart
 
-**2. SEO Websites (Secondary - Currently Low Traffic)**
+**3. SEO Websites (Supporting)**
 - **taxguidehq.com** - Tax guidance for gig workers
 - **taxes.taxguidehq.com** - Interactive tax calculators
-- **gigproof.online** - Product website
+- **gigproof.online** - Product website with blog
 
 **Known Issues:**
 - Traffic dropped after 2 months (Google Sandbox effect)
@@ -248,11 +273,12 @@ Avoids classification as regulated consumer reporting or financial verification 
 - Estimated budget: $300/month for testing
 
 ### Marketing Priorities (Next 30 Days):
-1. Execute comment hijacking plan on 5+ high-value forum threads
-2. Build 10 quality backlinks from relevant sites
-3. Create "Reddit-worthy" blog content that gets shared
-4. Target long-tail SEO keywords with specific pain points
-5. Consider launching small paid ad test ($100-200)
+1. Monitor Miami article performance (geographic targeting test)
+2. If Miami converts well, create articles for LA, NYC, Chicago, Houston
+3. Execute comment hijacking plan on 5+ high-value forum threads
+4. Build 10 quality backlinks from relevant sites (blog posts as link targets)
+5. Target long-tail SEO keywords with specific pain points
+6. Consider launching small paid ad test ($100-200)
 
 ---
 
@@ -387,10 +413,17 @@ Avoids classification as regulated consumer reporting or financial verification 
 - **Marketing Focus:** Comment hijacking on forums (primary) + SEO (secondary)
 - **Current Challenge:** Getting initial traction/customers
 
-### Recent Changes (Jan 27, 2026):
-- Removed old Plaid integration code from repo (cleaned up after confusion)
-- Repo was accidentally deleted but successfully restored
-- Confirmed 10 platforms are live (not just 2 as previously documented)
+### Recent Changes (Jan 31, 2026):
+- Added blog section with 11 SEO-optimized articles
+- Created geographic targeting test (Miami article)
+- Full SEO: Google Analytics, Open Graph, Twitter Cards, Schema.org Article + FAQ markup
+- Added For Lenders B2B landing page
+- Updated sitemap.xml, llms.txt, robots.txt
+
+### Previous Changes (Jan 27-28, 2026):
+- Fixed Stripe webhook RLS issue
+- Removed old Plaid integration code from repo
+- Confirmed 10 platforms are live
 - Updated all documentation to reflect current accurate state
 
 ### Architecture Key Points:
@@ -405,7 +438,17 @@ Avoids classification as regulated consumer reporting or financial verification 
 
 ## 14. Changelog
 
-### v1.0.5 (Jan 28, 2026) - CURRENT
+### v1.0.6 (Jan 31, 2026) - CURRENT
+- ✅ Added comprehensive blog section with 11 SEO-optimized articles
+- ✅ Full SEO implementation: Google Analytics, Open Graph, Twitter Cards, Schema.org
+- ✅ Added FAQ Schema markup to all blog articles
+- ✅ Created geographic targeting test article (Miami Uber Driver Apartments)
+- ✅ Added For Lenders landing page
+- ✅ Updated sitemap.xml with all blog URLs
+- ✅ Updated llms.txt with blog section
+- ✅ Custom Vite middleware for serving static blog HTML files
+
+### v1.0.5 (Jan 28, 2026)
 - ✅ Fixed Stripe webhook RLS issue - credits now update correctly after payment
 - ✅ Added `add_pdf_credits` SQL function with SECURITY DEFINER to bypass RLS
 - ✅ Updated stripe-webhook Edge Function to use RPC call
@@ -438,4 +481,4 @@ Avoids classification as regulated consumer reporting or financial verification 
 
 ---
 
-*This document reflects the accurate "As-Built" production state of GigProof v1.0 as of January 27, 2026, including correct 10-platform support, accurate pricing ($2.99/$19.99), and folder structure.*
+*This document reflects the accurate "As-Built" production state of GigProof v1.0.6 as of January 31, 2026, including correct 10-platform support, accurate pricing ($2.99/$19.99), blog section with 11 articles, and folder structure.*
