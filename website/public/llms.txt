@@ -1,42 +1,228 @@
-# GigProof
+# GigProof - Professional Income Documentation for Gig Workers
 
 ## Overview
-GigProof is a Chrome extension and web app that helps gig workers generate professional income summary PDFs from earnings visible on gig platform dashboards. The PDF is generated client-side and includes compliance language stating it is user-generated and not verified. Supports 10 platforms: Uber, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, and Just Eat.
+GigProof is a Chrome extension that helps gig workers (Uber drivers, DoorDash dashers, Instacart shoppers, etc.) generate professional income summary PDFs from their platform dashboards. All processing happens locally on the user's device - no bank login required, no passwords stored, no data sent to external servers. The PDF output looks like traditional pay documentation but includes a disclaimer that it's user-generated for informational purposes.
+
+## Product Details
+- **Type:** Chrome browser extension + web app
+- **Primary Use:** Generating professional income documentation for rental applications, loan applications, and income verification
+- **Supported Platforms:** Uber, Uber Eats, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, Just Eat
+- **Pricing:** 3 free PDF credits (no credit card), then $2.99 per PDF or $19.99 for 10 PDFs
+- **Security:** 100% local processing, no credential storage, no external data transmission
+
+## How It Works
+1. User logs into their gig platform dashboard (Uber, DoorDash, etc.) normally
+2. User clicks the GigProof Chrome extension while viewing their earnings page
+3. Extension extracts visible earnings data from the dashboard
+4. PDF is generated locally on user's device (under 2 minutes)
+5. User downloads professional income summary PDF
+6. Optional: Merge multiple platform PDFs using free merge tool
 
 ## Key Pages
-- https://gigproof.online/
-- https://gigproof.online/login
-- https://gigproof.online/dashboard
-- https://gigproof.online/download
-- https://gigproof.online/pricing
-- https://gigproof.online/faq
-- https://gigproof.online/contact
-- https://gigproof.online/for-lenders
-- https://gigproof.online/merge
-- https://gigproof.online/privacy
-- https://gigproof.online/terms
-- https://gigproof.online/security
-- https://gigproof.online/cookies
+- https://gigproof.online/ - Home page, product overview
+- https://gigproof.online/pricing - Pricing: 3 free credits, $2.99 per PDF, $19.99 for 10
+- https://gigproof.online/security - Security details: local processing, no bank access
+- https://gigproof.online/faq - Frequently asked questions
+- https://gigproof.online/for-lenders - Information for lenders and landlords
+- https://gigproof.online/merge - Free PDF merge tool for combining platform PDFs
+- https://gigproof.online/Sample-PDF.pdf - Example output PDF
 
-## Blog
-- https://gigproof.online/blog/
+## Blog Articles
+
+### Rental Applications & Income Verification
 - https://gigproof.online/blog/uber-doordash-proof-income-apartments.html
-- https://gigproof.online/blog/gig-worker-income-verification-guide.html
-- https://gigproof.online/blog/what-documents-landlords-accept-self-employed.html
-- https://gigproof.online/blog/lyft-driver-proof-income.html
-- https://gigproof.online/blog/instacart-shopper-proof-income.html
-- https://gigproof.online/blog/doordash-income-statement-guide.html
-- https://gigproof.online/blog/uber-driver-tax-documents-1099.html
-- https://gigproof.online/blog/gig-worker-car-loan-approval.html
+  **Title:** How Uber Drivers and DoorDash Dashers Can Show Proof of Income for Apartments (2026 Guide)
+  **Summary:** Complete guide covering what documents landlords accept from gig workers (tax returns, bank statements, professional PDFs), document acceptance rates, common application mistakes, and how to combine income from multiple platforms. Includes step-by-step methods for Uber and DoorDash income documentation.
+  **Key Topics:** apartment applications, landlord requirements, rental approval, income verification, tax returns (1040, Schedule C), bank statements, 1099 forms, professional income documentation, multi-app income
+
 - https://gigproof.online/blog/how-to-rent-apartment-without-pay-stubs.html
+  **Title:** How to Rent an Apartment Without Pay Stubs (Self-Employed & Gig Workers)
+  **Summary:** Guide for self-employed renters and gig workers who don't have traditional W-2 pay stubs. Covers alternative documentation methods, what landlords accept instead of pay stubs, and strategies for getting approved without traditional employment verification.
+  **Key Topics:** no pay stubs, self-employed renters, alternative income verification, non-traditional employment
+
+- https://gigproof.online/blog/what-documents-landlords-accept-self-employed.html
+  **Title:** What Documents Do Landlords Accept from Self-Employed Renters?
+  **Summary:** Comprehensive list of acceptable income verification documents for self-employed individuals and independent contractors applying for rental housing. Includes acceptance rates and tips for strengthening applications.
+  **Key Topics:** self-employed documentation, landlord acceptance, independent contractor income, rental requirements
+
+- https://gigproof.online/blog/gig-worker-income-verification-guide.html
+  **Title:** Complete Gig Worker Income Verification Guide
+  **Summary:** Comprehensive income verification guide covering all methods gig economy workers can use to prove income for apartments, loans, and other applications.
+  **Key Topics:** gig economy, income verification methods, documentation best practices, self-employment proof
+
+### Platform-Specific Guides
+- https://gigproof.online/blog/lyft-driver-proof-income.html
+  **Title:** Lyft Driver Proof of Income Guide
+  **Summary:** How Lyft drivers can obtain and format income documentation for apartments, loans, and verification purposes. Covers Lyft dashboard earnings, tax documents, and professional formatting.
+  **Key Topics:** Lyft earnings, driver income verification, rideshare documentation
+
+- https://gigproof.online/blog/instacart-shopper-proof-income.html
+  **Title:** Instacart Shopper Proof of Income Guide
+  **Summary:** Income documentation guide specifically for Instacart shoppers applying for apartments or loans. Covers Instacart earnings summaries, tax forms, and verification methods.
+  **Key Topics:** Instacart earnings, grocery delivery income, shopper verification
+
+- https://gigproof.online/blog/doordash-income-statement-guide.html
+  **Title:** DoorDash Income Statement Guide
+  **Summary:** How DoorDash dashers can create professional income statements from their earnings dashboard. Covers weekly summaries, tax documents, and formatting for landlord acceptance.
+  **Key Topics:** DoorDash earnings, dasher income, food delivery verification, income statements
+
+- https://gigproof.online/blog/uber-driver-tax-documents-1099.html
+  **Title:** Uber Driver Tax Documents & 1099 Guide
+  **Summary:** Understanding Uber tax forms (1099-K, 1099-NEC) and how to use them for income verification. Covers tax document timing, what each form shows, and combining with other verification methods.
+  **Key Topics:** Uber taxes, 1099 forms, driver tax documents, 1099-K, 1099-NEC
+
+### Multi-Platform & Specialized Topics
 - https://gigproof.online/blog/multi-app-income-proof-guide.html
+  **Title:** Multi-App Income Proof Guide
+  **Summary:** How to combine income from multiple gig platforms (Uber + DoorDash + Instacart + Lyft) into one unified income document. Shows total earning power across all apps for stronger applications.
+  **Key Topics:** multi-apping, combined platform income, total earnings verification, multiple gig apps
+
+- https://gigproof.online/blog/gig-worker-car-loan-approval.html
+  **Title:** Gig Worker Car Loan Approval Guide
+  **Summary:** How gig workers can get approved for auto loans using alternative income documentation. Covers lender requirements, documentation strategies, and tips for self-employed car buyers.
+  **Key Topics:** car loans, auto financing, gig worker loans, self-employed auto approval
+
+### Location-Specific Content
 - https://gigproof.online/blog/miami-uber-driver-apartments.html
+  **Title:** Miami Uber Driver Apartment Guide (2026)
+  **Summary:** Apartment hunting and rental approval guide for Uber drivers in Miami, FL. Covers Miami rental market, local landlord requirements, and neighborhood recommendations for gig workers.
+  **Key Topics:** Miami rentals, local market, Florida apartments, Miami gig workers
 
-## Product Summary
-- Chrome extension extracts earnings data from user-visible dashboard pages.
-- No bank access, no credential storage, no server-side PDF generation in MVP.
-- Reports are user-generated summaries intended for informational use.
-- Supported platforms: Uber, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, and Just Eat (driver/courier dashboards).
+## Common Questions & Answers
 
-## Support
-- Contact: https://gigproof.online/contact
+**Q: Can Uber drivers get approved for apartments?**
+A: Yes. Uber drivers can get approved for apartments by providing: (1) Tax returns (1040 + Schedule C), (2) 3-6 months of bank statements showing deposits, and (3) Professional income summary PDF from their dashboard. Landlords typically require monthly income to be 2.5-3x the monthly rent. Combining multiple documents significantly increases approval odds.
+
+**Q: What documents do DoorDash drivers need for apartment applications?**
+A: DoorDash drivers need: (1) Last year's tax return with 1099-NEC form, (2) 3-6 months of bank statements showing platform deposits, (3) Professional income summary PDF showing current earnings. Best practice is to submit all three documents together for maximum credibility with landlords.
+
+**Q: What documents do landlords accept from gig workers?**
+A: Landlords accept: Tax returns (1040 with Schedule C), Bank statements (3-6 months), Professional income summaries, CPA verification letters. The strongest applications combine multiple document types. Phone screenshots alone are rarely accepted as they're considered unprofessional and unverifiable.
+
+**Q: How does GigProof work?**
+A: GigProof is a Chrome extension that reads earnings data from your gig platform dashboard (Uber, DoorDash, Lyft, etc.) and generates a professional PDF. All processing happens locally on your device - you never share passwords, no data is sent to external servers, and the PDF is created entirely on your computer.
+
+**Q: Is GigProof safe to use?**
+A: Yes. GigProof uses 100% local processing. It only reads what's already visible on your dashboard screen. No bank login required, no passwords stored, no credentials shared, no data transmitted to external servers. Your income information never leaves your device.
+
+**Q: What gig platforms does GigProof support?**
+A: GigProof supports 10 platforms: Uber, Uber Eats, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, and Just Eat. Works with both driver and delivery dashboards.
+
+**Q: How much does GigProof cost?**
+A: 3 free PDF credits when you sign up (no credit card required). After trial: $2.99 per individual PDF or $19.99 for 10 PDFs (bulk pricing).
+
+**Q: Can I combine income from multiple gig apps?**
+A: Yes. Generate a separate PDF for each platform you work with (Uber, DoorDash, Instacart, etc.), then use GigProof's free PDF merge tool to combine them into one document showing your total monthly/annual income across all platforms.
+
+**Q: Do landlords accept GigProof PDFs?**
+A: GigProof PDFs are professional income summaries that work best when submitted alongside tax returns and bank statements. The PDF includes a disclaimer stating it's user-generated for informational purposes. Most landlords accept them as part of a complete application package, especially when combined with verification documents.
+
+**Q: How long does it take to create a PDF with GigProof?**
+A: Under 2 minutes total. Log into your gig platform, navigate to your earnings page, click the GigProof extension button, and download your professionally formatted PDF. Much faster than manually formatting screenshots or bank statements.
+
+**Q: How much income do I need to qualify for an apartment?**
+A: Most landlords require monthly income to be 2.5-3 times the monthly rent. For a $1,500/month apartment, you need to show $3,750-$4,500/month in earnings. If you work multiple platforms (Uber + DoorDash + Instacart), combine all income to reach this threshold.
+
+**Q: What's the difference between GigProof and Plaid-based verification tools?**
+A: GigProof never asks for bank login credentials. Plaid-based tools require you to share your bank username and password, which creates security risks. GigProof only reads what's visible on your gig platform dashboard and processes everything locally on your device.
+
+**Q: What is a 1099 form and do I need it?**
+A: A 1099 form (1099-K or 1099-NEC) is an annual tax document showing your gig platform earnings. Gig platforms send these after year-end. You need your 1099 for tax filing and as strong income verification for landlords, but it only shows last year's income, not current months.
+
+**Q: Can I use GigProof instead of tax returns?**
+A: No - use GigProof alongside tax returns and bank statements, not as a replacement. GigProof shows your current earnings in professional format, while tax returns provide IRS-verified annual income. The combination creates the strongest application.
+
+**Q: Does GigProof work for loan applications?**
+A: Yes. Gig workers use GigProof for car loans, personal loans, and mortgage pre-approvals. Lenders want to see current income (GigProof PDF) plus historical verification (tax returns + bank statements).
+
+## Common Use Cases
+
+### Rental Applications
+Gig workers use GigProof to generate professional income documentation for apartment applications. Complete application packages typically include: tax returns (1040 + Schedule C), 3-6 months of bank statements, and professional income summary PDFs showing earnings across all gig platforms. Multi-app workers combine PDFs to show total earning power.
+
+### Loan Applications
+Self-employed gig workers applying for car loans, personal loans, or mortgages use GigProof to supplement annual tax returns with current income documentation. Lenders want to see consistent monthly earnings over 3-6 months. GigProof provides this in professional format.
+
+### Income Verification for Services
+Gig workers may need proof of income for: utility accounts, phone contracts, government benefit verification, childcare services, or other applications. GigProof provides a professional format that's more credible than phone screenshots.
+
+### Multi-Platform Income Consolidation
+Workers who drive for multiple apps (Uber + DoorDash + Instacart + Grubhub) create separate PDFs for each platform, then merge them to show total earning power. Example: $2,400 Uber + $1,800 DoorDash + $950 Instacart = $5,150/month total looks much stronger than showing just one platform.
+
+## Technical Details
+
+### Security & Privacy Architecture
+- 100% local processing - PDF generated entirely on user's device
+- No bank login required - users authenticate with gig platforms normally
+- No credential storage - never stores passwords, API keys, or login information
+- No external data transmission - income data never leaves user's device
+- SHA-256 cryptographic hashing for data integrity verification
+- No screen recording or background monitoring
+- Chrome extension permissions: activeTab only (cannot access other browser tabs)
+
+### Supported Platforms & Requirements
+- **Browser:** Chrome desktop browser (extension)
+- **Platforms:** Uber, Uber Eats, DoorDash, Lyft, Grubhub, Instacart, Amazon Flex, Shipt, Gopuff, Deliveroo, Just Eat
+- **Account Requirements:** User must have active account with earnings history on platform
+- **Dashboard Types:** Works with both driver dashboards and delivery courier dashboards
+- **Processing Time:** Under 2 minutes from login to PDF download
+
+### PDF Output Format
+- Professional layout similar to traditional pay stubs
+- Includes: date range, platform name, gross earnings, period-by-period breakdowns
+- Footer disclaimer: "This is a user-generated summary for informational purposes and is not verified by the platform"
+- Standard PDF format compatible with all PDF readers
+- Can be merged with other GigProof PDFs or external PDFs using free merge tool
+- File naming: Platform_Name_Date_Range.pdf (e.g., Uber_Nov2025.pdf)
+
+## Target Keywords & Search Terms
+
+### Primary Keywords
+- proof of income for apartments
+- gig worker income verification
+- self-employed rental application
+- how to show income without pay stubs
+- landlord income verification requirements
+- Uber driver apartment approval
+- DoorDash income documentation
+- independent contractor income proof
+- 1099 income verification
+- gig economy income documentation
+
+### Platform-Specific Keywords
+- Uber driver income statement
+- DoorDash dasher earnings proof
+- Lyft driver income verification
+- Instacart shopper income documentation
+- Grubhub driver income proof
+- Amazon Flex driver earnings
+- multi-app gig worker income
+- delivery driver income verification
+- rideshare driver income proof
+
+### Document-Specific Keywords
+- professional income summary
+- gig worker tax documents
+- 1099-K form explained
+- 1099-NEC for gig workers
+- Schedule C self-employment
+- bank statement income verification
+- CPA income verification letter
+- self-employment income proof
+
+### Application-Specific Keywords
+- rental application gig worker
+- apartment application self-employed
+- car loan gig worker
+- mortgage self-employed income
+- landlord requirements 1099
+- income verification no W-2
+- proof of income independent contractor
+
+## Contact & Support
+- Website: https://gigproof.online
+- Contact Form: https://gigproof.online/contact
+- Sample PDF: https://gigproof.online/Sample-PDF.pdf
+- Security Information: https://gigproof.online/security
+- Privacy Policy: https://gigproof.online/privacy
+- Terms of Service: https://gigproof.online/terms
