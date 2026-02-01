@@ -17,10 +17,23 @@ function serveBlogFiles() {
             filePath = '/blog/index.html'
           }
           const fullPath = resolve(__dirname, 'public' + filePath)
+
+          // Check if path exists
           if (fs.existsSync(fullPath)) {
-            res.setHeader('Content-Type', 'text/html')
-            res.end(fs.readFileSync(fullPath, 'utf-8'))
-            return
+            // If it's a directory, serve index.html from that directory
+            if (fs.statSync(fullPath).isDirectory()) {
+              const indexPath = resolve(fullPath, 'index.html')
+              if (fs.existsSync(indexPath)) {
+                res.setHeader('Content-Type', 'text/html')
+                res.end(fs.readFileSync(indexPath, 'utf-8'))
+                return
+              }
+            } else {
+              // It's a file, serve it
+              res.setHeader('Content-Type', 'text/html')
+              res.end(fs.readFileSync(fullPath, 'utf-8'))
+              return
+            }
           }
         }
         next()

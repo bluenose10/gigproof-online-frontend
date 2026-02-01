@@ -84,6 +84,19 @@ GigProof is a Chrome extension that helps gig workers (Uber drivers, DoorDash da
 
 ### Location-Specific Content
 
+#### City Hub Pages
+- https://gigproof.online/blog/miami/
+  **Title:** Miami Gig Worker Guides Hub
+  **Summary:** Central hub page for all Miami gig worker content. Includes 11 articles covering platform-specific guides (Uber, DoorDash, Lyft, Instacart), neighborhood guides (Miami Beach, Downtown/Brickell, Hialeah, Coral Gables), and finance/verification guides. Miami gig economy stats: 280,000-320,000 active workers, $18-25/hr average earnings, $1,650-$3,200 rent range.
+  **Key Topics:** Miami gig workers, Miami Uber drivers, Miami DoorDash drivers, Miami apartments, Florida gig economy
+  **Target Audience:** All gig workers in Miami-Dade County seeking local resources
+
+- https://gigproof.online/blog/los-angeles/
+  **Title:** Los Angeles Gig Worker Guides Hub
+  **Summary:** Central hub page for all Los Angeles gig worker content. Includes 10 articles covering platform-specific guides (DoorDash, Lyft, Instacart), neighborhood guides (Santa Monica, Downtown LA, West Hollywood, Venice Beach), and finance/verification guides. LA gig economy stats: 450,000+ active workers (largest US market), $22-30/hr average earnings, $1,800-$3,200 rent range.
+  **Key Topics:** LA gig workers, Los Angeles Uber drivers, LA DoorDash drivers, California apartments, LA gig economy
+  **Target Audience:** All gig workers in Los Angeles County seeking local resources
+
 #### Miami-Specific Content
 - https://gigproof.online/blog/miami-uber-driver-apartments.html
   **Title:** Miami Uber Driver Apartment Guide (2026)

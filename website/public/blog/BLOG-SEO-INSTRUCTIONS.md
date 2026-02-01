@@ -12,9 +12,12 @@
 # GigProof Blog SEO & AI Search Optimization Guide
 
 ## Current Status (Feb 2026)
-- **11 blog articles** with full schema markup (6 blocks each)
-- **1 geographic test article** (Miami) for local SEO testing
+- **11 national blog articles** with full schema markup (6 blocks each)
+- **11 Miami articles** (city hub + 10 neighborhood/platform/use case articles)
+- **10 Los Angeles articles** (city hub + 10 neighborhood/platform/use case articles)
+- **2 city hub pages** at `/blog/miami/` and `/blog/los-angeles/`
 - **llms.txt file** at root with comprehensive AI optimization
+- **sitemap.xml** with all articles and hub pages indexed
 
 ---
 
@@ -354,16 +357,18 @@ Every major section should follow this pattern:
 - [ ] Add "Pro tip" callout boxes
 - [ ] Include specific numbers/statistics
 
-### After Writing
+### After Writing (CRITICAL - Don't Skip)
 - [ ] Add all 6 schema blocks
 - [ ] Validate schemas (zero errors)
 - [ ] Test meta description length
 - [ ] Check all links work
 - [ ] Read aloud for flow
-- [ ] Add to sitemap.xml
-- [ ] Add to llms.txt
-- [ ] Submit to Google Search Console
+- [ ] **Add to sitemap.xml** (REQUIRED - Google won't find it otherwise)
+- [ ] **Add to llms.txt with full summary** (REQUIRED - AI tools won't cite it otherwise)
+- [ ] Submit to Google Search Console for indexing
 - [ ] Submit to Bing Webmaster Tools
+
+**CRITICAL: If article is not in sitemap.xml and llms.txt, it doesn't exist to search engines and AI tools.**
 
 ---
 
@@ -386,12 +391,19 @@ Every major section should follow this pattern:
    - Target: "shipt shopper income verification"
    - Estimated volume: 1,200/month
 
-### Geographic Expansion (Test After Miami Results)
-1. **Los Angeles Uber Driver Apartments** (22M metro, high gig economy)
+### Geographic Expansion (Next Cities)
+1. ~~**Los Angeles**~~ ✅ COMPLETE (10 articles + hub page)
 2. **New York City Gig Worker Housing** (20M metro, expensive market)
-3. **Austin Rideshare Driver Rentals** (2M metro, tech hub)
-4. **Chicago DoorDash Driver Apartments** (9M metro, major market)
-5. **Phoenix Gig Worker Apartments** (5M metro, growing market)
+3. **Chicago DoorDash Driver Apartments** (9M metro, major market)
+4. **Phoenix Gig Worker Apartments** (5M metro, growing market)
+5. **Houston Gig Worker Apartments** (7M metro, affordable market)
+
+**When adding a new city:**
+1. Create 10 articles following the template pattern
+2. Create city hub page at `/blog/[city-name]/index.html`
+3. Add hub page to sitemap.xml (priority 0.9, weekly changefreq)
+4. Add hub page to llms.txt under "City Hub Pages" section
+5. Update main `/blog/index.html` to include new city card
 
 ### Use Case Expansion
 1. **Gig Worker Mortgage Pre-Approval Guide**
@@ -777,33 +789,63 @@ Here's what happens when you use GigProof:
 
 ---
 
-## Current Article URLs (All 11)
+## Current Article URLs
 
-### Platform-Specific Guides
+### National Platform-Specific Guides
 1. `/blog/uber-doordash-proof-income-apartments.html` - Main Uber/DoorDash guide
 2. `/blog/lyft-driver-proof-income.html` - Lyft driver income
 3. `/blog/instacart-shopper-proof-income.html` - Instacart shopper income
 4. `/blog/doordash-income-statement-guide.html` - DoorDash specific
 5. `/blog/uber-driver-tax-documents-1099.html` - Uber tax docs
 
-### Use Case Guides
+### National Use Case Guides
 6. `/blog/gig-worker-income-verification-guide.html` - Master guide
 7. `/blog/what-documents-landlords-accept-self-employed.html` - Landlord docs
 8. `/blog/how-to-rent-apartment-without-pay-stubs.html` - No pay stubs
 9. `/blog/gig-worker-car-loan-approval.html` - Car loans
 10. `/blog/multi-app-income-proof-guide.html` - Multiple platforms
 
-### Geographic Test
-11. `/blog/miami-uber-driver-apartments.html` - Miami specific
+### City Hub Pages
+- `/blog/miami/` - Miami hub (links to all 11 Miami articles)
+- `/blog/los-angeles/` - Los Angeles hub (links to all 10 LA articles)
+
+### Miami Articles (11 total)
+1. `/blog/miami-uber-driver-apartments.html` - Main Miami guide
+2. `/blog/miami-doordash-driver-apartments.html` - DoorDash specific
+3. `/blog/miami-lyft-driver-housing.html` - Lyft specific
+4. `/blog/miami-instacart-shopper-apartments.html` - Instacart specific
+5. `/blog/miami-beach-gig-worker-apartments.html` - Miami Beach neighborhood
+6. `/blog/downtown-miami-uber-driver-housing.html` - Downtown/Brickell neighborhood
+7. `/blog/hialeah-doordash-driver-apartments.html` - Hialeah neighborhood
+8. `/blog/coral-gables-rideshare-driver-rentals.html` - Coral Gables neighborhood
+9. `/blog/miami-gig-worker-car-loans.html` - Car loans use case
+10. `/blog/miami-uber-driver-income-verification.html` - Income verification use case
+11. `/blog/miami-gig-economy-statistics-2026.html` - Market statistics
+
+### Los Angeles Articles (10 total)
+1. `/blog/la-doordash-driver-apartments.html` - DoorDash specific
+2. `/blog/la-lyft-driver-housing.html` - Lyft specific
+3. `/blog/la-instacart-shopper-apartments.html` - Instacart specific
+4. `/blog/santa-monica-gig-worker-apartments.html` - Santa Monica neighborhood
+5. `/blog/downtown-la-uber-driver-housing.html` - Downtown LA neighborhood
+6. `/blog/west-hollywood-rideshare-driver-rentals.html` - West Hollywood neighborhood
+7. `/blog/venice-beach-doordash-driver-apartments.html` - Venice Beach neighborhood
+8. `/blog/la-gig-worker-car-loans.html` - Car loans use case
+9. `/blog/la-uber-driver-income-verification.html` - Income verification use case
+10. `/blog/la-gig-economy-statistics-2026.html` - Market statistics
 
 ---
 
 ## llms.txt Maintenance
 
+### CRITICAL: Update llms.txt for EVERY New Article
+
+**llms.txt is how AI tools (ChatGPT, Perplexity, Claude) discover your content. If an article isn't in llms.txt, AI tools won't cite it.**
+
 ### When to Update llms.txt
 
 **Add new entry when:**
-- Publishing new blog article
+- Publishing ANY new blog article (REQUIRED)
 - Adding new product feature
 - Creating new landing page
 - Launching in new market/location
@@ -814,13 +856,146 @@ Here's what happens when you use GigProof:
 - Title or meta description changed
 - Article URL changed (with redirect)
 
+### How to Add Article to llms.txt
+
+**Format for blog articles:**
+
+```markdown
+- https://gigproof.online/blog/[ARTICLE-FILENAME].html
+  **Title:** [Full Article Title with Year]
+  **Summary:** [2-3 sentence summary covering: what problem it solves, who it's for, key topics covered]
+  **Key Topics:** [comma-separated list of main keywords and concepts]
+  **Target Audience:** [who this article helps - be specific]
+```
+
+**Example - Platform Article:**
+
+```markdown
+- https://gigproof.online/blog/miami-doordash-driver-apartments.html
+  **Title:** Miami DoorDash Driver Apartment Guide (2026)
+  **Summary:** Complete guide for DoorDash drivers seeking apartments in Miami, FL. Covers what documents Miami landlords accept (tax returns, bank statements, professional PDFs), average earnings for Miami dashers ($18-25/hr), and best neighborhoods for affordability vs commute. Includes specific apartment complexes and income verification strategies.
+  **Key Topics:** Miami DoorDash income, Miami apartments, rental applications, income verification, 1099-NEC forms, bank statements, professional income documentation, Miami neighborhoods
+  **Target Audience:** DoorDash delivery drivers in Miami seeking rental housing
+```
+
+**Example - Neighborhood Article:**
+
+```markdown
+- https://gigproof.online/blog/miami-beach-gig-worker-apartments.html
+  **Title:** Miami Beach Apartments for Gig Workers (2026 Guide)
+  **Summary:** Neighborhood-specific apartment guide for Uber/DoorDash/Lyft drivers in Miami Beach. Covers average rents ($2,800/month), landlord requirements, proximity to high-demand areas, and which apartment complexes accept gig worker income. Includes ZIP codes 33139, 33140, 33141.
+  **Key Topics:** Miami Beach apartments, gig worker housing, tourist area income verification, Miami Beach rent prices, rideshare driver housing, beachfront apartments
+  **Target Audience:** Gig workers (Uber, DoorDash, Lyft) looking for apartments specifically in Miami Beach area
+```
+
+### Common Questions Section in llms.txt
+
+**After listing all articles, maintain an updated FAQ section:**
+
+Every time you add articles about new topics, add relevant Q&As to the common questions section. AI tools use this heavily.
+
+**Example - Adding Miami Content:**
+
+When you add 10 Miami articles, also add these FAQs to llms.txt:
+
+```markdown
+**Q: Can Uber drivers get apartments in Miami?**
+A: Yes. Miami landlords accept gig worker income when properly documented with tax returns (1040 + Schedule C), 3-6 months of bank statements, and professional income PDFs. Average rent in Miami is $2,000-2,800/month for 1br, requiring $5,000-7,000/month in income.
+
+**Q: What are the best Miami neighborhoods for DoorDash drivers?**
+A: Hialeah offers affordable rent ($1,650/month) with high restaurant density. Miami Beach has high demand but expensive rent ($2,800/month). Downtown Miami (Brickell) is very expensive ($3,200/month) but has consistent business district demand.
+
+**Q: How much do Miami gig workers earn?**
+A: Uber/Lyft drivers in Miami earn $18-25/hour on average. DoorDash drivers earn similar. Peak earnings are in tourist areas (South Beach, Brickell) during evening hours and weekends.
+```
+
 ### llms.txt Best Practices
 
-1. **Keep summaries concise** (2-3 sentences max)
-2. **Include target keywords** in descriptions
-3. **List all FAQs** from each article
-4. **Update "Last updated" date** when changed
-5. **Test in ChatGPT** after updates (does it find the info?)
+1. **Keep summaries concise** (2-3 sentences max per article)
+2. **Include target keywords** in descriptions (helps AI matching)
+3. **Be specific about audience** ("Miami DoorDash drivers" not "gig workers")
+4. **Update "Last updated" date** at bottom of llms.txt file
+5. **Test in ChatGPT after updates** - Ask "How do Miami Uber drivers get apartments?" and see if your content is found
+
+**CRITICAL: Claude Code should update llms.txt automatically when creating new articles. Check that it did.**
+
+---
+
+## sitemap.xml Maintenance
+
+### CRITICAL: Update sitemap.xml for EVERY New Article
+
+**sitemap.xml tells Google which pages exist on your site. If an article isn't in sitemap.xml, Google may never find it.**
+
+### Sitemap Format
+
+**For each blog article, add:**
+
+```xml
+<url>
+  <loc>https://gigproof.online/blog/[ARTICLE-FILENAME].html</loc>
+  <lastmod>[YYYY-MM-DD]</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+```
+
+**Example:**
+
+```xml
+<url>
+  <loc>https://gigproof.online/blog/miami-doordash-driver-apartments.html</loc>
+  <lastmod>2026-02-01</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+```
+
+### Priority Guidelines
+
+**Use these priority values:**
+- Homepage: `1.0`
+- Main product pages (pricing, features): `0.9`
+- Blog articles: `0.8` (all articles same priority)
+- Secondary pages (privacy, terms): `0.5`
+
+**Don't overthink priority - Google mostly ignores it. Just be consistent.**
+
+### Change Frequency
+
+**For blog articles:**
+- New articles (< 3 months old): `<changefreq>monthly</changefreq>`
+- Older articles (> 3 months): `<changefreq>yearly</changefreq>`
+
+**Update changefreq when you update article content.**
+
+### After Adding to Sitemap
+
+1. **Validate sitemap:**
+   - Go to: https://www.xml-sitemaps.com/validate-xml-sitemap.html
+   - Paste your sitemap URL
+   - Fix any errors
+
+2. **Submit to Google Search Console:**
+   - Go to Sitemaps section
+   - Click "Add a new sitemap"
+   - Enter: `sitemap.xml`
+   - Click Submit
+
+3. **Submit to Bing Webmaster Tools:**
+   - Same process as Google
+
+**Google will re-crawl sitemap automatically, but manual submission speeds it up.**
+
+### Automation Reminder for Claude Code
+
+**When Claude Code creates new articles, it MUST:**
+1. ✅ Add article to sitemap.xml with current date
+2. ✅ Add article to llms.txt with full summary
+3. ✅ Validate both files (no XML errors, no broken formatting)
+4. ✅ Confirm both updates in output
+
+**If Claude Code forgets either step, the article is effectively invisible to search engines and AI tools.**
 
 ---
 
