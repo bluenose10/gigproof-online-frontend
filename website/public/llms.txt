@@ -151,6 +151,67 @@ GigProof is a Chrome extension that helps gig workers (Uber drivers, DoorDash da
   **Key Topics:** Miami gig economy data, Uber statistics, DoorDash driver numbers, gig worker earnings, Florida gig economy, rideshare market size
   **Target Audience:** Gig workers, researchers, journalists, policymakers interested in Miami gig economy data
 
+#### Los Angeles-Specific Content
+- https://gigproof.online/blog/la-doordash-driver-apartments.html
+  **Title:** Los Angeles DoorDash Driver Apartments: Income Proof Guide 2026
+  **Summary:** Complete guide for DoorDash drivers seeking apartments in Los Angeles. Covers what documents LA landlords accept (tax returns, bank statements, professional PDFs), average earnings for LA dashers ($20-28/hr), and best neighborhoods for affordability vs commute (Koreatown, East LA, North Hollywood).
+  **Key Topics:** LA DoorDash income, Los Angeles apartments, rental applications, income verification, 1099-NEC forms, California gig worker housing
+  **Target Audience:** DoorDash delivery drivers in Los Angeles seeking rental housing
+
+- https://gigproof.online/blog/la-lyft-driver-housing.html
+  **Title:** Los Angeles Lyft Driver Housing: Income Proof Guide 2026
+  **Summary:** Apartment finding guide for Lyft drivers in Los Angeles. Covers Lyft-specific documentation, dual-platform strategies (Uber + Lyft combined income), LAX airport runs, and neighborhood recommendations near rideshare hotspots.
+  **Key Topics:** LA Lyft income, rideshare housing, dual-platform income, LAX airport drivers, Lyft earnings verification
+  **Target Audience:** Lyft drivers in Los Angeles looking for rental housing
+
+- https://gigproof.online/blog/la-instacart-shopper-apartments.html
+  **Title:** Los Angeles Instacart Shopper Apartments: Income Proof Guide 2026
+  **Summary:** Apartment guide for Instacart shoppers in LA. Covers batch earnings, store rankings (Erewhon pays highest), tip potential in wealthy areas (Beverly Hills, West Hollywood), and best neighborhoods near premium grocery stores.
+  **Key Topics:** LA Instacart income, grocery delivery housing, shopper apartments, Erewhon batches, Whole Foods zones, premium grocery delivery
+  **Target Audience:** Instacart shoppers in Los Angeles seeking rental housing
+
+- https://gigproof.online/blog/santa-monica-gig-worker-apartments.html
+  **Title:** Santa Monica Apartments for Gig Workers: 2026 Income Proof Guide
+  **Summary:** Premium neighborhood guide for Uber, DoorDash, and Lyft drivers in Santa Monica. Covers expensive rent ($3,200/month average), premium earnings potential, strict landlord requirements, and whether the higher rent is worth it for gig workers.
+  **Key Topics:** Santa Monica apartments, Westside LA gig workers, premium beach community, tourist tips, Silicon Beach tech workers
+  **Target Audience:** Gig workers considering expensive Santa Monica housing
+
+- https://gigproof.online/blog/downtown-la-uber-driver-housing.html
+  **Title:** Downtown LA Uber Driver Housing: Income Proof Guide 2026
+  **Summary:** Apartment guide for rideshare drivers in Downtown Los Angeles. Covers DTLA rent prices ($2,400/month average), Convention Center and LA Live event demand, Arts District, and Financial District corporate rides.
+  **Key Topics:** Downtown LA apartments, DTLA rideshare, LA Live events, Convention Center demand, Arts District housing
+  **Target Audience:** Uber and Lyft drivers seeking housing in Downtown Los Angeles
+
+- https://gigproof.online/blog/west-hollywood-rideshare-driver-rentals.html
+  **Title:** West Hollywood Rideshare Driver Rentals: Income Proof Guide 2026
+  **Summary:** Neighborhood guide for Uber and Lyft drivers in West Hollywood. Covers Sunset Strip nightlife earnings ($35-50/hour peak), celebrity clientele, expensive rent ($2,800/month), and highest rideshare demand in LA.
+  **Key Topics:** West Hollywood apartments, Sunset Strip rideshare, WeHo nightlife earnings, celebrity pickups, premium rideshare market
+  **Target Audience:** Rideshare drivers seeking housing in West Hollywood
+
+- https://gigproof.online/blog/venice-beach-doordash-driver-apartments.html
+  **Title:** Venice Beach DoorDash Driver Apartments: Income Proof Guide 2026
+  **Summary:** Apartment guide for DoorDash drivers in Venice Beach. Covers Abbot Kinney restaurant density, e-bike delivery strategy, Silicon Beach tech lunch orders, and artistic community landlords who understand gig income.
+  **Key Topics:** Venice Beach apartments, Abbot Kinney delivery, e-bike DoorDash, Silicon Beach orders, artistic community housing
+  **Target Audience:** DoorDash and delivery drivers seeking housing in Venice Beach
+
+- https://gigproof.online/blog/la-gig-worker-car-loans.html
+  **Title:** Los Angeles Gig Worker Car Loans: Income Proof Guide 2026
+  **Summary:** Complete guide for LA gig workers getting car loans. Covers which California lenders accept gig income (credit unions like First Entertainment, Kinecta), documentation requirements, interest rates by credit score, and best vehicles for gig work.
+  **Key Topics:** LA car loans, gig worker auto financing, California credit unions, Uber driver car loan, self-employed auto loan
+  **Target Audience:** Uber, DoorDash, Lyft drivers in Los Angeles needing car financing
+
+- https://gigproof.online/blog/la-uber-driver-income-verification.html
+  **Title:** Los Angeles Uber Driver Income Verification: Complete Guide 2026
+  **Summary:** Comprehensive guide for LA gig workers on how to verify Uber income for apartments, car loans, credit applications, and other purposes. Step-by-step documentation process from Uber Driver Dashboard.
+  **Key Topics:** LA income verification, Uber documentation, 1099 verification, bank statement income, professional income PDFs, self-employment proof
+  **Target Audience:** All LA Uber drivers needing income verification for any purpose
+
+- https://gigproof.online/blog/la-gig-economy-statistics-2026.html
+  **Title:** Los Angeles Gig Economy Statistics 2026: Data, Trends & Earnings
+  **Summary:** Comprehensive 2026 statistics on LA's gig economy including 450,000+ workers, earnings by platform and area, workforce demographics, housing costs vs. income, and growth trends. LA has the largest gig economy in the US.
+  **Key Topics:** LA gig economy data, Uber statistics, DoorDash driver numbers, California gig economy, rideshare market size, gig worker earnings
+  **Target Audience:** Gig workers, researchers, journalists, policymakers interested in Los Angeles gig economy data
+
 ## Common Questions & Answers
 
 **Q: Can Uber drivers get approved for apartments?**
@@ -217,6 +278,26 @@ A: Miami's gig economy generates approximately $4.2 billion annually: $1.8 billi
 
 **Q: Which Miami lenders accept gig worker income for car loans?**
 A: Miami credit unions (Miami-Dade Credit Union, Suncoast Credit Union) offer best rates and flexibility. Online lenders (Capital One, LightStream) are convenient. Dealership financing (CarMax, AutoNation) works with varied credit scores. Expect 4-12% APR depending on credit.
+
+### Los Angeles-Specific Questions
+
+**Q: Can Uber drivers get apartments in Los Angeles?**
+A: Yes. LA landlords accept gig worker income when properly documented with tax returns (1040 + Schedule C), 3-6 months of bank statements, and professional income PDFs. Average rent in LA is $2,200-3,200/month for 1BR, requiring $5,500-9,600/month in income (2.5-3x rent rule).
+
+**Q: What are the best LA neighborhoods for gig workers?**
+A: Koreatown offers affordable rent ($1,900/month) with 24/7 delivery demand. East LA/Boyle Heights has the lowest rents ($1,600/month). North Hollywood provides Valley access. West Hollywood and Santa Monica have highest earnings but expensive rent ($2,800-3,200/month).
+
+**Q: How much do Los Angeles gig workers earn?**
+A: Uber/Lyft drivers in LA earn $22-30/hour active time ($4,500-6,500/month full-time). DoorDash drivers earn $18-28/hour ($3,800-5,500/month). Instacart shoppers earn $18-28/hour. Peak earnings are in West Hollywood, Beverly Hills, and Santa Monica.
+
+**Q: How many gig workers are in Los Angeles?**
+A: Los Angeles County has approximately 450,000+ active gig workers (2026), representing about 9% of the LA workforce. This includes 120,000+ rideshare drivers, 95,000+ food delivery drivers, and 45,000+ grocery delivery workers.
+
+**Q: What is the LA gig economy market size?**
+A: Los Angeles has the largest gig economy in the United States, accounting for approximately 8% of all US gig workers. The market generates billions annually across rideshare, delivery, and other platform services.
+
+**Q: Which LA lenders accept gig worker income for car loans?**
+A: California credit unions (First Entertainment, Kinecta, SchoolsFirst) offer best rates and flexibility. Online lenders (Capital One Auto, Carvana, LightStream) also work with self-employed borrowers. Expect 5-15% APR depending on credit score.
 
 ## Common Use Cases
 
