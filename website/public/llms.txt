@@ -83,10 +83,73 @@ GigProof is a Chrome extension that helps gig workers (Uber drivers, DoorDash da
   **Key Topics:** car loans, auto financing, gig worker loans, self-employed auto approval
 
 ### Location-Specific Content
+
+#### Miami-Specific Content
 - https://gigproof.online/blog/miami-uber-driver-apartments.html
   **Title:** Miami Uber Driver Apartment Guide (2026)
   **Summary:** Apartment hunting and rental approval guide for Uber drivers in Miami, FL. Covers Miami rental market, local landlord requirements, and neighborhood recommendations for gig workers.
   **Key Topics:** Miami rentals, local market, Florida apartments, Miami gig workers
+  **Target Audience:** Uber drivers in Miami seeking rental housing
+
+- https://gigproof.online/blog/miami-doordash-driver-apartments.html
+  **Title:** Miami DoorDash Driver Apartment Guide (2026)
+  **Summary:** Complete guide for DoorDash drivers seeking apartments in Miami. Covers what documents Miami landlords accept (tax returns, bank statements, professional PDFs), average earnings for Miami dashers ($18-25/hr), and best neighborhoods for affordability vs commute. Includes specific apartment complexes and income verification strategies.
+  **Key Topics:** Miami DoorDash income, Miami apartments, rental applications, income verification, 1099-NEC forms, bank statements, professional income documentation, Miami neighborhoods
+  **Target Audience:** DoorDash delivery drivers in Miami seeking rental housing
+
+- https://gigproof.online/blog/miami-lyft-driver-housing.html
+  **Title:** Miami Lyft Driver Housing Guide (2026)
+  **Summary:** Apartment finding guide for Lyft drivers in Miami. Covers Lyft-specific documentation, dual-platform strategies (Uber + Lyft combined income), earning zones comparison, and neighborhood recommendations for Miami area.
+  **Key Topics:** Miami Lyft income, rideshare housing, dual-platform income, Miami apartments, Lyft earnings
+  **Target Audience:** Lyft drivers in Miami looking for rental housing
+
+- https://gigproof.online/blog/miami-instacart-shopper-apartments.html
+  **Title:** Miami Instacart Shopper Apartment Guide (2026)
+  **Summary:** Apartment guide for Instacart shoppers in Miami. Covers batch earnings, grocery zone rankings, tip potential in wealthy areas (Coral Gables, Miami Beach), and best neighborhoods for shoppers. Includes income documentation strategies specific to Instacart.
+  **Key Topics:** Miami Instacart income, grocery delivery housing, shopper apartments, batch earnings, Miami Whole Foods, Publix zones
+  **Target Audience:** Instacart shoppers in Miami seeking rental housing
+
+- https://gigproof.online/blog/miami-beach-gig-worker-apartments.html
+  **Title:** Miami Beach Apartments for Gig Workers (2026 Guide)
+  **Summary:** Neighborhood-specific apartment guide for Uber, DoorDash, and Lyft drivers in Miami Beach. Covers average rents ($2,800/month), landlord requirements, proximity to high-demand tourist areas, and which apartment complexes accept gig worker income. Includes ZIP codes 33139, 33140, 33141.
+  **Key Topics:** Miami Beach apartments, gig worker housing, tourist area income verification, Miami Beach rent prices, rideshare driver housing, beachfront apartments
+  **Target Audience:** Gig workers (Uber, DoorDash, Lyft) looking for apartments specifically in Miami Beach area
+
+- https://gigproof.online/blog/downtown-miami-uber-driver-housing.html
+  **Title:** Downtown Miami & Brickell Uber Driver Housing Guide (2026)
+  **Summary:** Apartment guide for rideshare drivers in Downtown Miami and Brickell financial district. Covers expensive rent ($3,200+ average), strict corporate landlord requirements, high-earning business district, and affordable alternatives nearby. Includes ZIP codes 33130, 33131.
+  **Key Topics:** Downtown Miami apartments, Brickell housing, corporate landlords, financial district rideshare, expensive rentals, Miami driver housing
+  **Target Audience:** Uber and Lyft drivers seeking housing in Downtown Miami or Brickell
+
+- https://gigproof.online/blog/hialeah-doordash-driver-apartments.html
+  **Title:** Hialeah Apartments for DoorDash Drivers (2026 Budget Guide)
+  **Summary:** Budget-friendly apartment guide for DoorDash drivers in Hialeah. Covers affordable rent ($1,650/month average), highest restaurant density in Miami, flexible landlords, Spanish-speaking advantage, and ZIP code breakdown (33010, 33012, 33013).
+  **Key Topics:** Hialeah apartments, budget gig worker housing, affordable Miami, restaurant delivery zones, DoorDash hot spots, Cuban restaurants
+  **Target Audience:** DoorDash and delivery drivers seeking affordable housing in Hialeah
+
+- https://gigproof.online/blog/coral-gables-rideshare-driver-rentals.html
+  **Title:** Coral Gables Apartments for Rideshare Drivers (2026)
+  **Summary:** Upscale neighborhood guide for Uber and Lyft drivers in Coral Gables. Covers expensive rent ($2,600/month), high-tip wealthy clientele, strict landlord requirements, and Instacart combo strategy for Whole Foods/Publix. Includes alternatives in South Miami and Kendall.
+  **Key Topics:** Coral Gables apartments, upscale rideshare housing, wealthy area tips, high-income verification, Miracle Mile
+  **Target Audience:** Rideshare drivers seeking housing in upscale Coral Gables area
+
+- https://gigproof.online/blog/miami-gig-worker-car-loans.html
+  **Title:** Miami Gig Worker Car Loans: How Uber & DoorDash Drivers Get Approved (2026)
+  **Summary:** Complete guide for Miami gig workers getting car loans. Covers which Miami lenders accept gig income (credit unions, dealerships, online lenders), credit score requirements, documentation needed, and approval strategies. Includes Miami-specific lender recommendations.
+  **Key Topics:** Miami car loans, gig worker auto financing, Uber driver car loan, self-employed auto loan, credit union car loans, Florida auto financing
+  **Target Audience:** Uber, DoorDash, Lyft drivers in Miami needing car financing
+
+- https://gigproof.online/blog/miami-uber-driver-income-verification.html
+  **Title:** Miami Uber Driver Income Verification: Complete Guide for All Uses (2026)
+  **Summary:** Comprehensive guide for Miami gig workers on how to verify income for apartments, car loans, credit cards, utilities, and other purposes. Covers document acceptance rates, platform-specific documentation, and verification strategies for all use cases.
+  **Key Topics:** Miami income verification, gig worker documentation, self-employed proof of income, 1099 verification, bank statement income, professional income PDFs
+  **Target Audience:** All Miami gig workers needing income verification for any purpose
+
+- https://gigproof.online/blog/miami-gig-economy-statistics-2026.html
+  **Title:** Miami Gig Economy Statistics 2026: Uber, DoorDash & Delivery Driver Data
+  **Summary:** Comprehensive 2026 statistics on Miami's gig economy including market size ($4.2 billion), driver counts by platform, average earnings by area, workforce demographics, housing costs vs. income, and seasonal trends. Data-driven analysis for gig workers and researchers.
+  **Key Topics:** Miami gig economy data, Uber statistics, DoorDash driver numbers, gig worker earnings, Florida gig economy, rideshare market size
+  **Target Audience:** Gig workers, researchers, journalists, policymakers interested in Miami gig economy data
 
 ## Common Questions & Answers
 
@@ -134,6 +197,26 @@ A: No - use GigProof alongside tax returns and bank statements, not as a replace
 
 **Q: Does GigProof work for loan applications?**
 A: Yes. Gig workers use GigProof for car loans, personal loans, and mortgage pre-approvals. Lenders want to see current income (GigProof PDF) plus historical verification (tax returns + bank statements).
+
+### Miami-Specific Questions
+
+**Q: Can Uber drivers get apartments in Miami?**
+A: Yes. Miami landlords accept gig worker income when properly documented with tax returns (1040 + Schedule C), 3-6 months of bank statements, and professional income PDFs. Average rent in Miami is $2,000-2,800/month for 1br, requiring $5,000-8,400/month in income (3x rent rule).
+
+**Q: What are the best Miami neighborhoods for DoorDash drivers?**
+A: Hialeah offers affordable rent ($1,650/month) with the highest restaurant density in Miami. Miami Beach has high demand but expensive rent ($2,800/month). Downtown Miami (Brickell) is very expensive ($3,200/month) but has consistent business district demand. Best value: Hialeah or Kendall.
+
+**Q: How much do Miami gig workers earn?**
+A: Uber/Lyft drivers in Miami earn $18-25/hour gross on average ($12-18/hour net after expenses). DoorDash drivers earn $15-22/hour. Instacart shoppers earn $18-25/hour. Peak earnings are in tourist areas (South Beach, Brickell) during evening hours and weekends.
+
+**Q: How many gig workers are in Miami?**
+A: The Miami metro area has approximately 280,000-320,000 active gig workers (2026). Uber is the largest platform with 85,000 drivers, followed by DoorDash (65,000), Lyft (45,000), and Instacart (35,000). Many workers use multiple platforms.
+
+**Q: What is the Miami gig economy market size?**
+A: Miami's gig economy generates approximately $4.2 billion annually: $1.8 billion in rideshare (Uber, Lyft), $1.4 billion in food delivery (DoorDash, Uber Eats, Grubhub), and $1 billion in other gig services.
+
+**Q: Which Miami lenders accept gig worker income for car loans?**
+A: Miami credit unions (Miami-Dade Credit Union, Suncoast Credit Union) offer best rates and flexibility. Online lenders (Capital One, LightStream) are convenient. Dealership financing (CarMax, AutoNation) works with varied credit scores. Expect 4-12% APR depending on credit.
 
 ## Common Use Cases
 
