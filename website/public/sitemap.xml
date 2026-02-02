@@ -68,6 +68,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://gigproof.online/blog/chicago/</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://gigproof.online/blog/uber-doordash-proof-income-apartments.html</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -312,6 +318,67 @@
   </url>
   <url>
     <loc>https://gigproof.online/blog/nyc-gig-economy-statistics-2026.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Chicago Geographic Articles -->
+  <url>
+    <loc>https://gigproof.online/blog/chicago-doordash-driver-apartments.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/chicago-lyft-driver-housing.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/chicago-instacart-shopper-apartments.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/downtown-chicago-gig-worker-apartments.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/lincoln-park-uber-driver-housing.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/wicker-park-rideshare-driver-rentals.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/pilsen-doordash-driver-apartments.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/chicago-gig-worker-car-loans.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/chicago-uber-driver-income-verification.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gigproof.online/blog/chicago-gig-economy-statistics-2026.html</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

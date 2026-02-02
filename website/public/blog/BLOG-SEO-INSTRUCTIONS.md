@@ -16,7 +16,8 @@
 - **11 Miami articles** (city hub + 10 neighborhood/platform/use case articles)
 - **10 Los Angeles articles** (city hub + 10 neighborhood/platform/use case articles)
 - **10 New York City articles** (city hub + 10 borough/platform/use case articles)
-- **3 city hub pages** at `/blog/miami/`, `/blog/los-angeles/`, and `/blog/new-york/`
+- **10 Chicago articles** (city hub + 10 neighborhood/platform/use case articles)
+- **4 city hub pages** at `/blog/miami/`, `/blog/los-angeles/`, `/blog/new-york/`, and `/blog/chicago/`
 - **llms.txt file** at root with comprehensive AI optimization
 - **sitemap.xml** with all articles and hub pages indexed
 
@@ -395,7 +396,7 @@ Every major section should follow this pattern:
 ### Geographic Expansion (Next Cities)
 1. ~~**Los Angeles**~~ ✅ COMPLETE (10 articles + hub page)
 2. ~~**New York City**~~ ✅ COMPLETE (10 articles + hub page)
-3. **Chicago DoorDash Driver Apartments** (9M metro, major market)
+3. ~~**Chicago**~~ ✅ COMPLETE (10 articles + hub page)
 4. **Phoenix Gig Worker Apartments** (5M metro, growing market)
 5. **Houston Gig Worker Apartments** (7M metro, affordable market)
 
@@ -810,6 +811,7 @@ Here's what happens when you use GigProof:
 - `/blog/miami/` - Miami hub (links to all 11 Miami articles)
 - `/blog/los-angeles/` - Los Angeles hub (links to all 10 LA articles)
 - `/blog/new-york/` - New York City hub (links to all 10 NYC articles)
+- `/blog/chicago/` - Chicago hub (links to all 10 Chicago articles)
 
 ### Miami Articles (11 total)
 1. `/blog/miami-uber-driver-apartments.html` - Main Miami guide
@@ -847,6 +849,18 @@ Here's what happens when you use GigProof:
 8. `/blog/nyc-gig-worker-car-loans.html` - Car loans use case
 9. `/blog/nyc-uber-driver-income-verification.html` - Income verification use case
 10. `/blog/nyc-gig-economy-statistics-2026.html` - Market statistics
+
+### Chicago Articles (10 total)
+1. `/blog/chicago-doordash-driver-apartments.html` - DoorDash specific
+2. `/blog/chicago-lyft-driver-housing.html` - Lyft specific
+3. `/blog/chicago-instacart-shopper-apartments.html` - Instacart specific
+4. `/blog/downtown-chicago-gig-worker-apartments.html` - Loop neighborhood
+5. `/blog/lincoln-park-uber-driver-housing.html` - Lincoln Park neighborhood
+6. `/blog/wicker-park-rideshare-driver-rentals.html` - Wicker Park neighborhood
+7. `/blog/pilsen-doordash-driver-apartments.html` - Pilsen neighborhood
+8. `/blog/chicago-gig-worker-car-loans.html` - Car loans use case
+9. `/blog/chicago-uber-driver-income-verification.html` - Income verification use case
+10. `/blog/chicago-gig-economy-statistics-2026.html` - Market statistics
 
 ---
 
