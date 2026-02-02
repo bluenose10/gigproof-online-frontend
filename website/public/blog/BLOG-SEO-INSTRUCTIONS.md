@@ -15,7 +15,8 @@
 - **11 national blog articles** with full schema markup (6 blocks each)
 - **11 Miami articles** (city hub + 10 neighborhood/platform/use case articles)
 - **10 Los Angeles articles** (city hub + 10 neighborhood/platform/use case articles)
-- **2 city hub pages** at `/blog/miami/` and `/blog/los-angeles/`
+- **10 New York City articles** (city hub + 10 borough/platform/use case articles)
+- **3 city hub pages** at `/blog/miami/`, `/blog/los-angeles/`, and `/blog/new-york/`
 - **llms.txt file** at root with comprehensive AI optimization
 - **sitemap.xml** with all articles and hub pages indexed
 
@@ -393,7 +394,7 @@ Every major section should follow this pattern:
 
 ### Geographic Expansion (Next Cities)
 1. ~~**Los Angeles**~~ ✅ COMPLETE (10 articles + hub page)
-2. **New York City Gig Worker Housing** (20M metro, expensive market)
+2. ~~**New York City**~~ ✅ COMPLETE (10 articles + hub page)
 3. **Chicago DoorDash Driver Apartments** (9M metro, major market)
 4. **Phoenix Gig Worker Apartments** (5M metro, growing market)
 5. **Houston Gig Worker Apartments** (7M metro, affordable market)
@@ -808,6 +809,7 @@ Here's what happens when you use GigProof:
 ### City Hub Pages
 - `/blog/miami/` - Miami hub (links to all 11 Miami articles)
 - `/blog/los-angeles/` - Los Angeles hub (links to all 10 LA articles)
+- `/blog/new-york/` - New York City hub (links to all 10 NYC articles)
 
 ### Miami Articles (11 total)
 1. `/blog/miami-uber-driver-apartments.html` - Main Miami guide
@@ -833,6 +835,18 @@ Here's what happens when you use GigProof:
 8. `/blog/la-gig-worker-car-loans.html` - Car loans use case
 9. `/blog/la-uber-driver-income-verification.html` - Income verification use case
 10. `/blog/la-gig-economy-statistics-2026.html` - Market statistics
+
+### New York City Articles (10 total)
+1. `/blog/nyc-doordash-driver-apartments.html` - DoorDash specific
+2. `/blog/nyc-lyft-driver-housing.html` - Lyft specific
+3. `/blog/nyc-instacart-shopper-apartments.html` - Instacart specific
+4. `/blog/manhattan-gig-worker-apartments.html` - Manhattan borough
+5. `/blog/brooklyn-uber-driver-housing.html` - Brooklyn borough
+6. `/blog/queens-rideshare-driver-rentals.html` - Queens borough
+7. `/blog/bronx-doordash-driver-apartments.html` - Bronx borough
+8. `/blog/nyc-gig-worker-car-loans.html` - Car loans use case
+9. `/blog/nyc-uber-driver-income-verification.html` - Income verification use case
+10. `/blog/nyc-gig-economy-statistics-2026.html` - Market statistics
 
 ---
 

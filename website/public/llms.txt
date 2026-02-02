@@ -97,6 +97,12 @@ GigProof is a Chrome extension that helps gig workers (Uber drivers, DoorDash da
   **Key Topics:** LA gig workers, Los Angeles Uber drivers, LA DoorDash drivers, California apartments, LA gig economy
   **Target Audience:** All gig workers in Los Angeles County seeking local resources
 
+- https://gigproof.online/blog/new-york/
+  **Title:** New York City Gig Worker Guides Hub
+  **Summary:** Central hub page for all New York City gig worker content. Includes 10 articles covering platform-specific guides (DoorDash, Lyft, Instacart), borough guides (Manhattan, Brooklyn, Queens, Bronx), and finance/verification guides. NYC gig economy stats: 500,000+ active workers, $28-42/hr average earnings, $1,800-$4,000+ rent range, unique 40x annual income rule.
+  **Key Topics:** NYC gig workers, New York Uber drivers, NYC DoorDash drivers, Manhattan apartments, Brooklyn housing, NYC gig economy, TLC licensing
+  **Target Audience:** All gig workers in New York City seeking local resources
+
 #### Miami-Specific Content
 - https://gigproof.online/blog/miami-uber-driver-apartments.html
   **Title:** Miami Uber Driver Apartment Guide (2026)
@@ -225,6 +231,67 @@ GigProof is a Chrome extension that helps gig workers (Uber drivers, DoorDash da
   **Key Topics:** LA gig economy data, Uber statistics, DoorDash driver numbers, California gig economy, rideshare market size, gig worker earnings
   **Target Audience:** Gig workers, researchers, journalists, policymakers interested in Los Angeles gig economy data
 
+#### New York City-Specific Content
+- https://gigproof.online/blog/nyc-doordash-driver-apartments.html
+  **Title:** NYC DoorDash Driver Apartments: Income Proof Guide 2026
+  **Summary:** Complete guide for DoorDash drivers seeking apartments in New York City. Covers NYC's unique 40x annual income rule, borough-by-borough rent comparison, e-bike delivery strategies, and documentation requirements. NYC dashers earn $22-32/hour with strong food delivery demand across all five boroughs.
+  **Key Topics:** NYC DoorDash income, New York apartments, 40x income rule, e-bike delivery, Brooklyn apartments, Manhattan delivery, guarantor requirements
+  **Target Audience:** DoorDash delivery drivers in New York City seeking rental housing
+
+- https://gigproof.online/blog/nyc-lyft-driver-housing.html
+  **Title:** NYC Lyft Driver Housing: Income Proof Guide 2026
+  **Summary:** Apartment guide for Lyft drivers in New York City. Covers TLC licensing requirements, JFK/LGA airport ride earnings ($50-80), dual-platform strategies with Uber, and navigating NYC's strict 40x income rule. Includes borough-specific recommendations.
+  **Key Topics:** NYC Lyft income, TLC licensing, airport rides, rideshare housing, Queens apartments, 40x rule, guarantor services
+  **Target Audience:** Lyft drivers in New York City looking for rental housing
+
+- https://gigproof.online/blog/nyc-instacart-shopper-apartments.html
+  **Title:** NYC Instacart Shopper Apartments: Income Proof Guide 2026
+  **Summary:** Apartment guide for Instacart shoppers in NYC. Covers no-car shopping advantages (subway access), premium stores (Whole Foods, Trader Joe's, Eataly), Upper East Side tip potential, and strategies for Manhattan vs. outer borough living.
+  **Key Topics:** NYC Instacart income, grocery delivery housing, shopper apartments, Whole Foods batches, Manhattan delivery, subway shopping
+  **Target Audience:** Instacart shoppers in New York City seeking rental housing
+
+- https://gigproof.online/blog/manhattan-gig-worker-apartments.html
+  **Title:** Manhattan Apartments for Gig Workers: 2026 Income Proof Guide
+  **Summary:** Premium borough guide for gig workers in Manhattan. Covers extreme rent ($3,000-5,000+), strict 40x income requirements, Upper Manhattan affordability zones (Washington Heights, Inwood, Harlem), and strategies for qualifying despite high rents. Includes ZIP codes 10001-10282.
+  **Key Topics:** Manhattan apartments, Upper West Side housing, gig worker Manhattan, Washington Heights, Inwood, 40x rule, guarantor services
+  **Target Audience:** Gig workers seeking apartments in Manhattan
+
+- https://gigproof.online/blog/brooklyn-uber-driver-housing.html
+  **Title:** Brooklyn Uber Driver Housing: Income Proof Guide 2026
+  **Summary:** Borough-specific guide for Uber drivers in Brooklyn. Covers Williamsburg, Bushwick, Bed-Stuy, and Crown Heights neighborhoods, rent comparison ($2,400-4,000), JFK airport proximity, and Brooklyn's growing gig economy. Includes ZIP codes 11201-11256.
+  **Key Topics:** Brooklyn apartments, Williamsburg housing, Bushwick rentals, Brooklyn Uber drivers, JFK airport rides, TLC licensing
+  **Target Audience:** Uber and Lyft drivers seeking housing in Brooklyn
+
+- https://gigproof.online/blog/queens-rideshare-driver-rentals.html
+  **Title:** Queens Rideshare Driver Rentals: Income Proof Guide 2026
+  **Summary:** Airport-proximity guide for rideshare drivers in Queens. Covers Astoria, Long Island City, Jackson Heights, and Flushing neighborhoods. Queens offers the best value for airport drivers with direct access to both JFK and LaGuardia. Rent: $2,000-2,800.
+  **Key Topics:** Queens apartments, Astoria housing, LIC rentals, JFK airport, LaGuardia airport, rideshare driver housing, airport proximity
+  **Target Audience:** Uber and Lyft drivers seeking housing in Queens near airports
+
+- https://gigproof.online/blog/bronx-doordash-driver-apartments.html
+  **Title:** Bronx DoorDash Driver Apartments: 2026 Budget Guide
+  **Summary:** Most affordable NYC borough for gig workers. Covers Fordham, Kingsbridge, Pelham Bay, and South Bronx neighborhoods. Rent $1,800-2,400 with growing food delivery demand. Best value for drivers needing NYC address while maximizing savings.
+  **Key Topics:** Bronx apartments, Fordham housing, budget NYC rentals, affordable gig worker housing, Bronx delivery zones
+  **Target Audience:** DoorDash and delivery drivers seeking affordable housing in NYC
+
+- https://gigproof.online/blog/nyc-gig-worker-car-loans.html
+  **Title:** NYC Gig Worker Car Loans: Income Proof Guide 2026
+  **Summary:** Complete guide for NYC gig workers getting car loans. Covers TLC vehicle requirements, e-bike alternatives, credit union options (Municipal Credit Union, Bethpage FCU), and whether car ownership makes sense in NYC. Includes TLC financing programs.
+  **Key Topics:** NYC car loans, TLC vehicle financing, gig worker auto loans, e-bike financing, NYC credit unions, self-employed auto loan
+  **Target Audience:** Uber, DoorDash, Lyft drivers in NYC needing vehicle financing
+
+- https://gigproof.online/blog/nyc-uber-driver-income-verification.html
+  **Title:** NYC Uber Driver Income Verification: Complete Guide 2026
+  **Summary:** Comprehensive guide for NYC gig workers on income verification covering the unique 40x annual income rule, 80x guarantor requirements, institutional guarantor services (Insurent, The Guarantors), and TLC license verification. Step-by-step for all verification needs.
+  **Key Topics:** NYC income verification, 40x rule, guarantor requirements, TLC verification, Uber documentation, institutional guarantors
+  **Target Audience:** All NYC Uber drivers needing income verification for any purpose
+
+- https://gigproof.online/blog/nyc-gig-economy-statistics-2026.html
+  **Title:** New York City Gig Economy Statistics 2026: Data, Trends & Earnings
+  **Summary:** Comprehensive 2026 statistics on NYC's gig economy including 500,000+ workers, $12+ billion market size, earnings by borough and platform, TLC driver data, e-bike delivery trends, and housing affordability analysis. NYC is one of the largest gig markets globally.
+  **Key Topics:** NYC gig economy data, Uber statistics, DoorDash driver numbers, TLC driver count, e-bike delivery, NYC gig market size
+  **Target Audience:** Gig workers, researchers, journalists, policymakers interested in New York City gig economy data
+
 ## Common Questions & Answers
 
 **Q: Can Uber drivers get approved for apartments?**
@@ -291,6 +358,29 @@ A: Miami's gig economy generates approximately $4.2 billion annually: $1.8 billi
 
 **Q: Which Miami lenders accept gig worker income for car loans?**
 A: Miami credit unions (Miami-Dade Credit Union, Suncoast Credit Union) offer best rates and flexibility. Online lenders (Capital One, LightStream) are convenient. Dealership financing (CarMax, AutoNation) works with varied credit scores. Expect 4-12% APR depending on credit.
+
+### New York City-Specific Questions
+
+**Q: Can Uber drivers get apartments in New York City?**
+A: Yes, but NYC has unique requirements. Landlords use a 40x annual income rule (not 2.5-3x monthly), meaning annual income must be 40x monthly rent. For a $2,500/month apartment, you need $100,000/year. Gig workers can use institutional guarantors (Insurent, The Guarantors) if they don't meet the 40x rule.
+
+**Q: What is the 40x income rule in NYC?**
+A: NYC landlords require annual income to be 40 times the monthly rent. For a $2,000/month apartment, you need $80,000/year income. This is stricter than other cities' 2.5-3x monthly rule. If you don't qualify, you can use an 80x guarantor (someone earning 80x the rent) or institutional guarantor services.
+
+**Q: What are the best NYC boroughs for gig workers?**
+A: Queens offers best value for airport drivers (JFK/LGA access) at $2,000-2,800/month. Brooklyn has strong gig demand with $2,400-4,000 rent. Bronx is most affordable ($1,800-2,400) with growing demand. Manhattan is expensive ($3,000-5,000+) but has highest earnings potential.
+
+**Q: How much do NYC gig workers earn?**
+A: Uber/Lyft drivers in NYC earn $28-42/hour active time (highest in US). DoorDash drivers earn $22-32/hour. Instacart shoppers earn $20-35/hour. Peak earnings are in Manhattan and during events. JFK/LGA airport rides pay $50-80.
+
+**Q: How many gig workers are in New York City?**
+A: NYC has approximately 500,000+ active gig workers, making it one of the largest gig markets globally. This includes 100,000+ TLC-licensed rideshare drivers, 85,000+ food delivery workers (many on e-bikes), and 50,000+ grocery delivery workers.
+
+**Q: Do I need a TLC license to drive for Uber/Lyft in NYC?**
+A: Yes. NYC requires a TLC (Taxi and Limousine Commission) license to drive for any rideshare company. The license process takes 2-4 weeks and costs approximately $300-500. You also need a TLC-approved vehicle. E-bike delivery workers don't need TLC licensing.
+
+**Q: Which NYC lenders accept gig worker income for car loans?**
+A: NYC credit unions (Municipal Credit Union, Bethpage FCU, Quontic) offer best rates and flexibility. TLC-specific financing programs exist for rideshare vehicles. Consider e-bike financing as an alternative - many NYC delivery workers earn more without car expenses.
 
 ### Los Angeles-Specific Questions
 
