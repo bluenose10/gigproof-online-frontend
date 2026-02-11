@@ -1,6 +1,6 @@
 # GigProof MVP Specification v2.5 (Production State - CORRECTED)
 
-**Status**: ✅ LIVE IN PRODUCTION | **Date**: Jan 31, 2026 | **Version**: 1.0.6
+**Status**: ✅ LIVE IN PRODUCTION | **Date**: Feb 11, 2026 | **Version**: 1.0.7
 
 ---
 
@@ -84,7 +84,7 @@ By extracting data from user-visible web dashboards within the client's browser,
 - Pricing page (credit purchase)
 - For Lenders page (B2B landing)
 - Legal pages (Terms, Privacy)
-- **Blog section** (`/blog/`) - 11 SEO-optimized articles
+- **Blog section** (`/blog/`) - 67 SEO-optimized articles + 5 city hubs
 
 **Deployment:**
 - Platform: Netlify
@@ -219,10 +219,27 @@ Avoids classification as regulated consumer reporting or financial verification 
 
 **1. Blog / Content Marketing (Primary SEO Focus)**
 - **Location:** `/website/public/blog/`
-- **Status:** ✅ 11 SEO-optimized articles LIVE
-- **Full SEO Implementation:** Google Analytics, Open Graph, Twitter Cards, Schema.org Article + FAQ markup
+- **Status:** ✅ 67 SEO-optimized articles LIVE + 5 city hubs
+- **Full SEO Implementation:** Google Analytics, Open Graph, Twitter Cards, 6 Schema.org blocks per article
 
-**Blog Articles (11 Total):**
+### ⚠️ CANONICAL URL RULE (CRITICAL - READ THIS!):
+**All blog canonical and og:url tags MUST use trailing slashes. NEVER use .html extension in canonical URLs.**
+- ✅ Correct: `https://gigproof.online/blog/phoenix-uber-driver-apartments/`
+- ❌ Wrong: `https://gigproof.online/blog/phoenix-uber-driver-apartments.html`
+- ❌ Wrong: `https://gigproof.online/blog/phoenix-uber-driver-apartments` (missing trailing slash)
+
+**Why?** Google Search Console flags duplicates when canonical URLs don't match indexed URLs. Fixed 61 articles on Feb 11, 2026.
+
+**City Hubs (5 Live - 51 city-specific articles):**
+| City | Articles | Status |
+|------|----------|--------|
+| Miami | 11 | ✅ LIVE |
+| Los Angeles | 10 | ✅ LIVE |
+| New York | 10 | ✅ LIVE |
+| Chicago | 10 | ✅ LIVE |
+| Phoenix | 10 | ✅ LIVE |
+
+**General Guides (11 articles):**
 1. How Uber Drivers and DoorDash Dashers Can Show Proof of Income for Apartments
 2. Gig Worker Income Verification: Complete Guide for Rentals and Loans
 3. What Documents Do Landlords Actually Accept from Self-Employed Workers?
@@ -233,12 +250,13 @@ Avoids classification as regulated consumer reporting or financial verification 
 8. Gig Worker Car Loan: How to Get Approved Without Pay Stubs
 9. How to Rent an Apartment Without Pay Stubs
 10. How to Combine Income from Multiple Gig Apps
-11. **Miami Uber Drivers: How to Show Proof of Income** (Geographic targeting test)
+11. Geographic targeting test article (Miami - now part of city hub)
 
 **Geographic Targeting Strategy:**
-- Miami article is a test case for city-specific SEO
-- If successful, can replicate for: Los Angeles, New York, Chicago, Houston, Atlanta, Phoenix
-- Each city article includes local rental market data, neighborhood guides, landlord expectations
+- ✅ 5 city hubs now LIVE (Miami, LA, NYC, Chicago, Phoenix)
+- Each city has hub page + 8-10 neighborhood/topic articles
+- Includes geo-coordinates in Schema.org markup
+- Next cities to consider: Houston, Atlanta, Dallas, San Francisco
 
 **2. Comment Hijacking Strategy (Secondary Focus)**
 - **UberPeople.net forum:**
@@ -273,12 +291,13 @@ Avoids classification as regulated consumer reporting or financial verification 
 - Estimated budget: $300/month for testing
 
 ### Marketing Priorities (Next 30 Days):
-1. Monitor Miami article performance (geographic targeting test)
-2. If Miami converts well, create articles for LA, NYC, Chicago, Houston
+1. ✅ COMPLETED: City articles for Miami, LA, NYC, Chicago, Phoenix (51 articles)
+2. Monitor city hub performance and conversion rates by geography
 3. Execute comment hijacking plan on 5+ high-value forum threads
 4. Build 10 quality backlinks from relevant sites (blog posts as link targets)
 5. Target long-tail SEO keywords with specific pain points
 6. Consider launching small paid ad test ($100-200)
+7. Next city expansion: Houston, Atlanta, Dallas, San Francisco
 
 ---
 
@@ -411,10 +430,18 @@ Avoids classification as regulated consumer reporting or financial verification 
 - **Folder Structure:** Website code is in `/website/` folder (including `/website/public/` for assets)
 - **Deployment:** Netlify deploys ONLY the `/website/` folder
 - **Marketing Focus:** Comment hijacking on forums (primary) + SEO (secondary)
+- **Blog:** 67 articles + 5 city hubs (Miami, LA, NYC, Chicago, Phoenix)
+- **⚠️ CANONICAL URL RULE:** All blog canonicals must use trailing slash, NEVER .html extension!
 - **Current Challenge:** Getting initial traction/customers
 
-### Recent Changes (Jan 31, 2026):
-- Added blog section with 11 SEO-optimized articles
+### Recent Changes (Feb 11, 2026):
+- ✅ **PHOENIX CITY HUB** - Added 10 Phoenix articles completing 5th city hub
+- ✅ **CANONICAL URL FIX** - Fixed 61 articles missing trailing slashes (was causing Google duplicates)
+- ✅ **5 City Hubs Live:** Miami (11), LA (10), NYC (10), Chicago (10), Phoenix (10) = 51 city articles
+- ⚠️ **RULE ESTABLISHED:** All blog canonicals MUST use trailing slash format, NEVER .html
+
+### Previous Changes (Jan 31, 2026):
+- Added blog section with initial SEO-optimized articles
 - Created geographic targeting test (Miami article)
 - Full SEO: Google Analytics, Open Graph, Twitter Cards, Schema.org Article + FAQ markup
 - Added For Lenders B2B landing page
@@ -438,8 +465,18 @@ Avoids classification as regulated consumer reporting or financial verification 
 
 ## 14. Changelog
 
-### v1.0.6 (Jan 31, 2026) - CURRENT
-- ✅ Added comprehensive blog section with 11 SEO-optimized articles
+### v1.0.7 (Feb 11, 2026) - CURRENT
+- ✅ **PHOENIX CITY HUB COMPLETE** - Added 10 Phoenix articles (income verification, gig economy stats, apartments, neighborhoods)
+- ✅ **CANONICAL URL FIX** - Fixed 61 article files missing trailing slashes in canonical/og:url tags
+- ✅ 5 city hubs now live: Miami (11), LA (10), NYC (10), Chicago (10), Phoenix (10)
+- ✅ Total blog content: 67 articles + 5 city hub index pages
+- ✅ Updated sitemap.xml with 11 new Phoenix URLs
+- ✅ Updated llms.txt with Phoenix hub and article summaries
+- ✅ All city hub pages now cross-link to each other
+- ⚠️ **CANONICAL URL RULE ESTABLISHED:** All blog articles MUST use trailing slashes. Format: `https://gigproof.online/blog/article-slug/` (NEVER use .html!)
+
+### v1.0.6 (Jan 31, 2026)
+- ✅ Added comprehensive blog section with initial SEO-optimized articles
 - ✅ Full SEO implementation: Google Analytics, Open Graph, Twitter Cards, Schema.org
 - ✅ Added FAQ Schema markup to all blog articles
 - ✅ Created geographic targeting test article (Miami Uber Driver Apartments)
@@ -481,4 +518,4 @@ Avoids classification as regulated consumer reporting or financial verification 
 
 ---
 
-*This document reflects the accurate "As-Built" production state of GigProof v1.0.6 as of January 31, 2026, including correct 10-platform support, accurate pricing ($2.99/$19.99), blog section with 11 articles, and folder structure.*
+*This document reflects the accurate "As-Built" production state of GigProof v1.0.7 as of February 11, 2026, including correct 10-platform support, accurate pricing ($2.99/$19.99), blog section with 67 articles + 5 city hubs, and canonical URL standards.*

@@ -359,6 +359,74 @@ GigProof is a Chrome extension that helps gig workers (Uber drivers, DoorDash da
   **Key Topics:** Chicago gig economy data, Uber statistics, DoorDash driver numbers, O'Hare rideshare demand, Midwest gig market
   **Target Audience:** Gig workers, researchers, journalists, policymakers interested in Chicago gig economy data
 
+#### Phoenix Hub Page
+- https://gigproof.online/blog/phoenix/
+  **Title:** Phoenix Gig Worker Guides Hub
+  **Summary:** Central hub page for all Phoenix gig worker content. Includes 10 articles covering platform-specific guides (Uber, DoorDash, Lyft, Instacart), suburb guides (Scottsdale, Tempe, Mesa), and finance/verification guides. Phoenix gig economy stats: 120,000+ active workers, $18-25/hr average earnings, 0% Arizona state income tax advantage, $1,300-2,200 rent range.
+  **Key Topics:** Phoenix gig workers, Arizona Uber drivers, Phoenix DoorDash drivers, Scottsdale apartments, Arizona gig economy
+  **Target Audience:** All gig workers in Phoenix metro area seeking local resources
+
+#### Phoenix-Specific Content
+- https://gigproof.online/blog/phoenix-uber-driver-apartments.html
+  **Title:** Phoenix Uber Driver Apartments: Income Proof Guide 2026
+  **Summary:** Complete guide for Uber drivers seeking apartments in Phoenix. Covers Arizona's 0% state income tax advantage, Sky Harbor Airport earnings ($25-40/hour), neighborhood comparison (Mesa, Tempe, Scottsdale, Downtown Phoenix), and documentation requirements. Phoenix has 90%+ landlord acceptance rate for gig income.
+  **Key Topics:** Phoenix Uber income, Arizona apartments, 0% state tax, Sky Harbor earnings, Phoenix neighborhoods
+  **Target Audience:** Uber drivers in Phoenix seeking rental housing
+
+- https://gigproof.online/blog/phoenix-doordash-driver-apartments.html
+  **Title:** Phoenix DoorDash Driver Apartments: Income Proof Guide 2026
+  **Summary:** Apartment guide for DoorDash drivers in Phoenix. Covers Scottsdale high-tip zones, ASU Tempe student demand, affordable Mesa housing, and snowbird season earnings boost (25-35%). Arizona's tax-free income advantage explained for apartment applications.
+  **Key Topics:** Phoenix DoorDash income, Arizona delivery housing, Scottsdale tips, Tempe apartments, snowbird season
+  **Target Audience:** DoorDash delivery drivers in Phoenix seeking rental housing
+
+- https://gigproof.online/blog/phoenix-lyft-driver-housing.html
+  **Title:** Phoenix Lyft Driver Housing: Income Proof Guide 2026
+  **Summary:** Apartment guide for Lyft drivers in Phoenix. Covers dual-platform Uber+Lyft strategies, Sky Harbor airport queue tips, Old Town Scottsdale nightlife earnings, and navigating Phoenix's flexible landlord market.
+  **Key Topics:** Phoenix Lyft income, dual-platform rideshare, Sky Harbor airport, Scottsdale nightlife, Arizona apartments
+  **Target Audience:** Lyft drivers in Phoenix looking for rental housing
+
+- https://gigproof.online/blog/phoenix-instacart-shopper-apartments.html
+  **Title:** Phoenix Instacart Shopper Apartments: Income Proof Guide 2026
+  **Summary:** Apartment guide for Instacart shoppers in Phoenix. Covers premium stores (Whole Foods, Sprouts), Paradise Valley/Scottsdale tip potential, car requirements in desert heat, and strategies for different Phoenix zones.
+  **Key Topics:** Phoenix Instacart income, grocery delivery housing, Scottsdale batches, Whole Foods Arizona, shopper apartments
+  **Target Audience:** Instacart shoppers in Phoenix seeking rental housing
+
+- https://gigproof.online/blog/scottsdale-gig-worker-apartments.html
+  **Title:** Scottsdale Apartments for Gig Workers: 2026 Income Proof Guide
+  **Summary:** Premium Phoenix suburb guide for gig workers. Covers highest earnings but expensive rent ($1,700-2,200/month), Old Town nightlife surge pricing, resort tourism, wealthy clientele, and whether Scottsdale rent is worth the premium earnings.
+  **Key Topics:** Scottsdale apartments, Old Town nightlife, premium gig earnings, resort tips, luxury clientele
+  **Target Audience:** Gig workers considering premium Scottsdale housing
+
+- https://gigproof.online/blog/tempe-doordash-driver-apartments.html
+  **Title:** Tempe DoorDash Driver Apartments: 2026 Income Proof Guide
+  **Summary:** College town guide for DoorDash drivers near Arizona State University. Covers Mill Avenue bar scene, 75,000+ ASU student demand, moderate rent ($1,400-1,700/month), and late-night delivery opportunities.
+  **Key Topics:** Tempe apartments, ASU students, Mill Avenue delivery, college town gig work, Arizona State
+  **Target Audience:** DoorDash drivers seeking housing in Tempe near ASU
+
+- https://gigproof.online/blog/mesa-uber-driver-housing.html
+  **Title:** Mesa Uber Driver Housing: 2026 Budget Guide
+  **Summary:** Most affordable Phoenix suburb for gig workers. Covers best value rent ($1,300-1,500/month), excellent freeway access to Sky Harbor and Scottsdale, growing downtown Mesa, and strategy for living affordably while accessing premium zones.
+  **Key Topics:** Mesa apartments, affordable Phoenix housing, budget gig worker housing, Loop 202 access, downtown Mesa
+  **Target Audience:** Uber and gig drivers seeking affordable housing in Phoenix metro
+
+- https://gigproof.online/blog/phoenix-gig-worker-car-loans.html
+  **Title:** Phoenix Gig Worker Car Loans: Income Proof Guide 2026
+  **Summary:** Complete guide for Phoenix gig workers getting car loans. Covers Arizona credit unions (Desert Financial, OneAZ), heat-resistant vehicle considerations, documentation requirements, and gig-friendly lenders.
+  **Key Topics:** Phoenix car loans, Arizona auto financing, gig worker vehicle loans, Desert Financial, heat-resistant vehicles
+  **Target Audience:** Uber, DoorDash, Lyft drivers in Phoenix needing vehicle financing
+
+- https://gigproof.online/blog/phoenix-uber-driver-income-verification.html
+  **Title:** Phoenix Uber Driver Income Verification: Complete Guide 2026
+  **Summary:** Comprehensive guide for Phoenix gig workers on income verification covering all use cases (apartments, car loans, credit cards, utilities). Explains Arizona's 0% state tax advantage for income verification, 90%+ landlord acceptance rate, and documentation strategies.
+  **Key Topics:** Phoenix income verification, Arizona gig documentation, 0% state tax advantage, flexible landlords, income proof strategies
+  **Target Audience:** All Phoenix Uber drivers needing income verification for any purpose
+
+- https://gigproof.online/blog/phoenix-gig-economy-statistics-2026.html
+  **Title:** Phoenix Gig Economy Statistics 2026: Data, Trends & Earnings
+  **Summary:** Comprehensive 2026 statistics on Phoenix's gig economy including 120,000+ workers, earnings by platform and zone, seasonal patterns (snowbird season +25-35%), 0% state tax advantage, and growth trends. Phoenix ranks among top 10 US cities for gig worker income after expenses.
+  **Key Topics:** Phoenix gig economy data, Uber statistics, DoorDash driver numbers, snowbird season demand, Arizona gig market
+  **Target Audience:** Gig workers, researchers, journalists, policymakers interested in Phoenix gig economy data
+
 ## Common Questions & Answers
 
 **Q: Can Uber drivers get approved for apartments?**
@@ -491,6 +559,29 @@ A: Chicago winters actually boost gig earnings 20-30%. Fewer drivers work in har
 
 **Q: Which Chicago lenders accept gig worker income for car loans?**
 A: Illinois credit unions (Alliant Credit Union, CEFCU, Navy Federal) offer best rates and flexibility. Online lenders (Capital One Auto, Carvana) also work with gig income. Expect 5-15% APR depending on credit score. AWD vehicles recommended for winter.
+
+### Phoenix-Specific Questions
+
+**Q: Can Uber drivers get apartments in Phoenix?**
+A: Yes. Phoenix landlords have 90%+ acceptance rates for gig income—among the highest in the country. Arizona's 0% state income tax is a major advantage. Average rent is $1,400-1,800/month for 1BR, requiring $3,500-5,400/month income (2.5-3x rule). Many independent landlords are flexible.
+
+**Q: What are the best Phoenix neighborhoods for gig workers?**
+A: Mesa offers best value ($1,300-1,500/month) with excellent freeway access. Tempe has ASU student demand ($1,400-1,700). Scottsdale has highest earnings but expensive ($1,700-2,200). Downtown Phoenix balances location and affordability ($1,500-1,900).
+
+**Q: How much do Phoenix gig workers earn?**
+A: Uber/Lyft drivers in Phoenix earn $18-25/hour active time ($3,500-5,200/month full-time). DoorDash drivers earn $15-22/hour. Instacart shoppers earn $14-20/hour. Snowbird season (November-April) boosts earnings 25-35%. Sky Harbor Airport pays $25-40/hour.
+
+**Q: How many gig workers are in Phoenix?**
+A: The Phoenix metro area has approximately 120,000-140,000 active gig workers (2026), growing 15-20% annually. This includes 35,000+ Uber drivers, 25,000+ DoorDash drivers, 18,000+ Lyft drivers, and 15,000+ Instacart shoppers.
+
+**Q: What is Arizona's gig worker tax advantage?**
+A: Arizona has 0% state income tax, meaning Phoenix gig workers keep all their earnings at the state level. A driver earning $50,000/year in Phoenix keeps $6,650 more than the same driver in California (13.3% state tax) or $5,450 more than in New York (10.9% state tax).
+
+**Q: When is the best time to do gig work in Phoenix?**
+A: Snowbird season (November-April) is peak earning time with 25-35% higher demand from seasonal residents and tourists. Spring Training (February-March) adds baseball tourism. Summer (June-September) has lower demand but less competition—work early mornings or late evenings to avoid heat.
+
+**Q: Which Phoenix lenders accept gig worker income for car loans?**
+A: Arizona credit unions (Desert Financial, OneAZ, Arizona Federal) offer best rates and flexibility for self-employed borrowers. Online lenders also work well. Expect 5-15% APR depending on credit score. Consider heat-resistant vehicle features for Phoenix summers.
 
 ## Common Use Cases
 

@@ -1,6 +1,6 @@
 # Production Readiness Checklist
 
-**Last Updated:** January 31, 2026
+**Last Updated:** February 11, 2026
 **Status:** ✅ FULLY LIVE - Website deployed + Chrome extension approved on Web Store + Payments working + Blog SEO active
 
 ---
@@ -13,7 +13,7 @@
 ```
 /website/          ← Main GigProof website (React + Vite) - NETLIFY DEPLOYS THIS
   ├── public/      ← Assets folder (images, fonts, etc.)
-  │   └── blog/    ← Static blog articles (11 SEO-optimized HTML pages)
+  │   └── blog/    ← Static blog articles (67 SEO-optimized HTML pages + 5 city hubs)
   ├── src/         ← React components and pages
   ├── index.html   ← Entry point
   └── package.json ← Dependencies
@@ -146,13 +146,13 @@ users table includes:
 | **Credits System** | ✅ LIVE | 3 free credits on signup |
 | **Backend API** | ✅ LIVE | Supabase Edge Functions |
 | **PDF Generation** | ✅ LIVE | Client-side via jsPDF |
-| **Blog/SEO** | ✅ LIVE | 11 articles published |
+| **Blog/SEO** | ✅ LIVE | 67 articles + 5 city hubs |
 
 ---
 
-## 📝 BLOG SECTION (Jan 31, 2026)
+## 📝 BLOG SECTION (Feb 11, 2026)
 
-**Status:** ✅ LIVE - 11 SEO-optimized articles published
+**Status:** ✅ LIVE - 67 SEO-optimized articles published across 5 city hubs
 
 ### Blog Infrastructure:
 - Static HTML pages in `/website/public/blog/`
@@ -160,39 +160,59 @@ users table includes:
 - Consistent header/footer matching main site
 - Full SEO implementation on all articles
 
+### ⚠️ CANONICAL URL RULE (CRITICAL):
+**All blog canonical and og:url tags MUST use trailing slashes and NEVER include .html extension.**
+- ✅ Correct: `https://gigproof.online/blog/phoenix-uber-driver-apartments/`
+- ❌ Wrong: `https://gigproof.online/blog/phoenix-uber-driver-apartments.html`
+- ❌ Wrong: `https://gigproof.online/blog/phoenix-uber-driver-apartments` (no trailing slash)
+
+**Note:** We fixed 61 articles on Feb 11, 2026 that had missing trailing slashes. Google Search Console was flagging duplicates. DO NOT CREATE NEW ARTICLES WITH .html IN CANONICAL URLS.
+
 ### SEO Features Per Article:
 - Google Analytics tracking (G-NMB8Q0LR5L)
-- Meta description + canonical URLs
+- Meta description + canonical URLs (with trailing slash!)
 - Open Graph tags for social sharing
 - Twitter Card tags
-- Schema.org Article markup
-- Schema.org FAQ markup (for relevant articles)
+- 6 Required Schema.org blocks: Article, FAQPage (7+ questions), HowTo, BreadcrumbList, Organization, ItemList
 - Breadcrumb navigation
 
-### Published Articles (11 total):
+### City Hub Structure (5 Cities Live):
+```
+/blog/                      ← Main blog index
+/blog/miami/               ← Miami hub (11 articles)
+/blog/los-angeles/         ← Los Angeles hub (10 articles)
+/blog/new-york/            ← New York hub (10 articles)
+/blog/chicago/             ← Chicago hub (10 articles)
+/blog/phoenix/             ← Phoenix hub (10 articles)
+```
 
-**General Guides:**
-1. `uber-doordash-proof-income-apartments.html` - Apartment rental guide
-2. `gig-worker-income-verification-guide.html` - Comprehensive verification guide
-3. `what-documents-landlords-accept-self-employed.html` - Landlord document guide
-4. `how-to-rent-apartment-without-pay-stubs.html` - No pay stubs guide
-5. `multi-app-income-proof-guide.html` - Multi-platform income guide
+### Published Content Summary:
 
-**Platform-Specific:**
-6. `lyft-driver-proof-income.html` - Lyft driver guide
-7. `instacart-shopper-proof-income.html` - Instacart shopper guide
-8. `doordash-income-statement-guide.html` - DoorDash earnings guide
-9. `uber-driver-tax-documents-1099.html` - Uber tax documents guide
-10. `gig-worker-car-loan-approval.html` - Car loan approval guide
+**General Guides (11 articles):**
+- Uber/DoorDash proof of income apartments
+- Gig worker income verification guide
+- What documents landlords accept self-employed
+- How to rent apartment without pay stubs
+- Multi-app income proof guide
+- Lyft driver proof of income
+- Instacart shopper proof of income
+- DoorDash income statement guide
+- Uber driver tax documents 1099
+- Gig worker car loan approval
 
-**Geographic Targeting (Test):**
-11. `miami-uber-driver-apartments.html` - Miami local guide (with geo-coordinates)
+**City-Specific Articles (51 articles across 5 cities):**
+- Miami: 11 articles (neighborhoods: South Beach, Downtown, Coral Gables, Hialeah, etc.)
+- Los Angeles: 10 articles (West Hollywood, Venice Beach, Downtown LA, Santa Monica, etc.)
+- New York: 10 articles (Manhattan, Brooklyn, Queens, Bronx, etc.)
+- Chicago: 10 articles (Lincoln Park, Wicker Park, Pilsen, Downtown, etc.)
+- Phoenix: 10 articles (Scottsdale, Tempe, Mesa, Downtown Phoenix, etc.)
 
 ### Geographic Targeting Strategy:
-- Miami article is test case for city-specific SEO
+- ✅ 5 city hubs now live with full local content
+- Each city has: main hub page + 8-10 neighborhood/topic articles
 - Includes geo-coordinates in Schema.org markup
-- If successful, replicate for: Los Angeles, New York, Chicago, Houston, Atlanta, Phoenix
-- Target: Local search queries like "uber driver apartments [city]"
+- Targets local search queries like "uber driver apartments [city]"
+- Next cities to consider: Houston, Atlanta, Dallas, San Francisco
 
 ---
 
@@ -200,10 +220,10 @@ users table includes:
 
 ### Active Strategies:
 1. **Blog Content Marketing** (PRIMARY FOCUS)
-   - 11 SEO-optimized articles published
-   - Targeting long-tail keywords
-   - Geographic targeting test (Miami)
-   - Schema.org markup for rich snippets
+   - 67 SEO-optimized articles published across 5 city hubs
+   - Targeting long-tail + geographic keywords
+   - 5 city hubs live: Miami, Los Angeles, New York, Chicago, Phoenix
+   - 6 Schema.org blocks per article for rich snippets
 
 2. **Comment Hijacking** - Active on UberPeople.net forum
    - Username: Mark_GigProof
@@ -228,13 +248,14 @@ users table includes:
 - ❌ Competing with established players (TurboTax, Uber guides, etc.)
 
 ### Next Marketing Steps:
-- Monitor Miami geographic article performance
-- If Miami converts, create city guides for: LA, NYC, Chicago, Houston, Atlanta, Phoenix
+- ✅ COMPLETED: City guides for Miami, LA, NYC, Chicago, Phoenix (51 articles total)
+- Monitor city hub performance and conversion rates
 - Build 10+ quality backlinks from relevant sites
 - Continue targeting long-tail keywords via blog content
 - Create "Reddit-worthy" content that gets shared organically
 - Consider paid advertising ($300/month budget for testing)
 - Continue comment hijacking strategy on forums
+- Next cities to consider: Houston, Atlanta, Dallas, San Francisco
 
 ---
 
@@ -271,7 +292,7 @@ This is GigProof - a Chrome extension that helps gig workers (Uber/DoorDash driv
 - Website is in `/website/` folder, deployed to gigproof.online via Netlify
 - Extension is approved on Chrome Web Store
 - Payments working via Stripe with credits system
-- **Blog:** 11 SEO articles in `/website/public/blog/` (static HTML)
+- **Blog:** 67 SEO articles + 5 city hubs in `/website/public/blog/` (static HTML)
 - Marketing focus: Blog SEO content + Comment hijacking on forums
 
 **Folder Structure:**
@@ -282,11 +303,21 @@ This is GigProof - a Chrome extension that helps gig workers (Uber/DoorDash driv
 
 **Developer:** Mark Moran (solo founder, 14 years web dev experience, based in Liverpool/Southport, UK)
 
-**Current Priority:** Building SEO authority through blog content + geographic targeting test (Miami)
+**Current Priority:** Building SEO authority through blog content + 5 city hubs (Miami, LA, NYC, Chicago, Phoenix)
 
 ---
 
 ## 🔄 CHANGELOG
+
+### February 11, 2026
+- ✅ **PHOENIX CITY HUB COMPLETE** - Added 10 Phoenix articles (income verification, gig economy stats, apartments, neighborhoods)
+- ✅ **CANONICAL URL FIX** - Fixed 61 article files that were missing trailing slashes in canonical/og:url tags
+- ✅ Updated sitemap.xml with 11 new Phoenix URLs
+- ✅ Updated llms.txt with Phoenix hub and article summaries
+- ✅ Updated blog/index.html to show 5 city hubs
+- ✅ All city hub pages now cross-link to each other
+
+**⚠️ CANONICAL URL RULE ESTABLISHED:** All blog articles MUST use trailing slashes in canonical URLs. Format: `https://gigproof.online/blog/article-slug/` (NEVER use .html extension!)
 
 ### January 31, 2026
 - ✅ Added 5 new blog articles (doordash-income-statement, uber-tax-documents, car-loan-approval, rent-without-pay-stubs, multi-app-income)
@@ -324,4 +355,4 @@ This is GigProof - a Chrome extension that helps gig workers (Uber/DoorDash driv
 
 ---
 
-*This document reflects the "As-Is" production state of GigProof v1.0.6 as of January 31, 2026.*
+*This document reflects the "As-Is" production state of GigProof v1.0.7 as of February 11, 2026.*
